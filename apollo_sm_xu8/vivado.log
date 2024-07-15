@@ -1,0 +1,1254 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Jul 15 14:18:19 2024
+# Process ID: 6108
+# Current directory: C:/Dev/apollo_sm_vivado/apollo_sm_xu8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23116 C:\Dev\apollo_sm_vivado\apollo_sm_xu8\apollo_sm_xu8.xpr
+# Log file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/vivado.log
+# Journal file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8\vivado.jou
+# Running On: Thorntanker, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from '/home/madorsky/github/vivado/apollo/apollo_sm_vivado/apollo_sm_xu8' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_CM2_UART_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_MONITOR_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_PL_MEM_RAM_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_PL_MEM_CM_RAM_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_PL_MEM_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1B_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_SYS_RESET_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_sys_resetter_c2c_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_sys_resetter_primary_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_sys_resetter_primary_BUS_RST_N_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_SYS_RESET_BUS_RST_N_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_sys_resetter_c2c_BUS_RST_N_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_ZynqMPSoC_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2B_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1_AXI_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_CM_MON_AXI_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1_PHY_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_CM1_PB_UART_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_SI_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_AXI_MON_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1_AXILITE_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2B_PHY_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2_AXILITE_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2_PHY_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_CM2_PB_UART_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C2_AXI_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_xbar_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_ESM_UART_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_xbar_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_xbar_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_IRQ0_INTR_CTRL_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_INT_AXI_FW_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_CM1_UART_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_C2C1B_PHY_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_PL_MEM_CM_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_xbar_3_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_axis_jtag_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_axis_data_fifo_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_axi_dma_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'onboardclk_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_12_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_9_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_3_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_13_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_20_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_us_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_16_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_10_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_17_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_us_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_6_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_21_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_8_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_18_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_11_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_22_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_7_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_us_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_15_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_23_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_5_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_14_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_19_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'zynq_bd_auto_pc_4_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-2-i
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_CM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_CM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_CM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_CM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_CM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_CM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_CM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_CM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] zynq_bd_PL_MEM_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] zynq_bd_PL_MEM_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_INSTANCE is not allowed in procedure update_MODELPARAM_VALUE.C_INSTANCE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_STB_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_STB_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_RESP_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_RESP_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_PROT_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_PROT_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_DATA_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_DATA_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_ADDR_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_ADDR_WIDTH
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_BUS_TYPE is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_BUS_TYPE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_INSTANCE is not allowed in procedure update_MODELPARAM_VALUE.C_INSTANCE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_STB_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_STB_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_RESP_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_RESP_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_PROT_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_PROT_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_DATA_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_DATA_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_ADDR_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_ADDR_WIDTH
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_BUS_TYPE is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_BUS_TYPE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_INSTANCE is not allowed in procedure update_MODELPARAM_VALUE.C_INSTANCE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_STB_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_STB_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_RESP_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_RESP_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_PROT_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_PROT_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_DATA_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_DATA_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_ADDR_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_ADDR_WIDTH
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_BUS_TYPE is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_BUS_TYPE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_INSTANCE is not allowed in procedure update_MODELPARAM_VALUE.C_INSTANCE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_STB_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_STB_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_RESP_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_RESP_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_PROT_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_PROT_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_DATA_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_DATA_WIDTH
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_LITE_ADDR_WIDTH is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_LITE_ADDR_WIDTH
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.C_AXI_BUS_TYPE is not allowed in procedure update_MODELPARAM_VALUE.C_AXI_BUS_TYPE
+WARNING: [IP_Flow 19-4684] Expected long value for param C_NUM_OF_IO but, float/scientific notation value 58.0 is provided. The value is converted to long type(58)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_AURORA_WIDTH but, float/scientific notation value 1.0 is provided. The value is converted to long type(1)
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+open_project: Time (s): cpu = 00:02:04 ; elapsed = 00:02:58 . Memory (MB): peak = 3713.215 ; gain = 2609.117
+update_compile_order -fileset sources_1
+open_bd_design {C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd}
+Reading block design file <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - ZynqMPSoC
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_resetter_primary
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - sys_resetter_primary_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_resetter_c2c
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - sys_resetter_c2c_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - SYS_RESET
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - SYS_RESET_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_MAIN_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_C2C_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - IRQ0_INTR_CTRL
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - IRQ0_INTR_CTRL_IRQ
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C1
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C1_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : refclk1_in of /C2C1_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C1_AXI_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C1B
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C1B_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : refclk1_in of /C2C1B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C1_AXILITE_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C2
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C2_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : refclk1_in of /C2C2_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C2_AXI_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C2B
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C2B_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : refclk1_in of /C2C2B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C2_AXILITE_FW
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_LOCAL_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - PL_MEM
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - PL_MEM_RAM
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - PL_MEM_CM
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - PL_MEM_CM_RAM
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - CM_MON_AXI_FW
+Adding component instance block -- xilinx.com:ip:system_management_wiz:1.3 - MONITOR
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - SI
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM1_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM2_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM1_PB_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM2_PB_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - ESM_UART
+Adding component instance block -- xilinx.com:ip:axi_perf_mon:5.0 - AXI_MON
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - INT_AXI_FW
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/DMA_JTAG/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/DMA_JTAG/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- user.org:user:axis_jtag:1.0 - axis_jtag_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_SG.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_MM2S.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_S2MM.
+Successfully read diagram <zynq_bd> from block design file <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd>
+open_bd_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:55 . Memory (MB): peak = 3872.832 ; gain = 129.062
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property CONFIG.NUM_MI {9} [get_bd_cells AXI_C2C_INTERCONNECT]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0
+endgroup
+set_property location {5 1905 2443} [get_bd_cells axi_dma_0]
+set_property location {4 1947 2340} [get_bd_cells axi_dma_0]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins AXI_C2C_INTERCONNECT/M08_AXI] [get_bd_intf_pins axi_dma_0/S_AXI_LITE]
+set_property location {4 1922 3516} [get_bd_cells axi_dma_0]
+open_project C:/Dev/VHDL/cdma_demo/cdma_demo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_zynq_ultra_ps_e_0_0
+design_1_xbar_0
+design_1_axi_cdma_0_0
+design_1_util_ds_buf_0_0
+design_1_auto_pc_0
+design_1_auto_ds_1
+design_1_rst_ps8_0_99M_0
+design_1_ps8_0_axi_periph_0
+design_1_auto_ds_0
+design_1_ps8_0_axi_periph_1
+design_1_system_ila_0_0
+
+INFO: [Project 1-230] Project 'cdma_demo.xpr' upgraded for this version of Vivado.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 4057.395 ; gain = 2.418
+update_compile_order -fileset sources_1
+current_project apollo_sm_xu8
+report_ip_status -name ip_status 
+current_project cdma_demo
+open_bd_design {C:/Dev/VHDL/cdma_demo/cdma_demo.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Dev/VHDL/cdma_demo/cdma_demo.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:axi_cdma:4.1 - axi_cdma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps8_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_99M
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps8_0_axi_periph1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /axi_cdma_0/Data.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP4/HP2_LPS_OCM from address space /axi_cdma_0/Data.
+Successfully read diagram <design_1> from block design file <C:/Dev/VHDL/cdma_demo/cdma_demo.srcs/sources_1/bd/design_1/design_1.bd>
+current_project apollo_sm_xu8
+save_bd_design
+Wrote  : <C:\Dev\apollo_sm_vivado\apollo_sm_xu8\apollo_sm_xu8.srcs\sources_1\bd\zynq_bd\zynq_bd.bd> 
+Wrote  : <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/ui/bd_b36b3c9f.ui> 
+save_bd_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 4057.551 ; gain = 0.000
+close_bd_design [get_bd_designs zynq_bd]
+open_bd_design {C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd}
+Reading block design file <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - ZynqMPSoC
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_resetter_primary
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - sys_resetter_primary_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_resetter_c2c
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - sys_resetter_c2c_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - SYS_RESET
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - SYS_RESET_BUS_RST_N
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_MAIN_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_C2C_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - IRQ0_INTR_CTRL
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - IRQ0_INTR_CTRL_IRQ
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C1
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C1_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : refclk1_in of /C2C1_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C1_AXI_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C1B
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C1B_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : refclk1_in of /C2C1B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C1_AXILITE_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C2
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C2_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : refclk1_in of /C2C2_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C2_AXI_FW
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - C2C2B
+Adding component instance block -- xilinx.com:ip:aurora_64b66b:12.0 - C2C2B_PHY
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : refclk1_in of /C2C2B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - C2C2_AXILITE_FW
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - AXI_LOCAL_INTERCONNECT
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - PL_MEM
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - PL_MEM_RAM
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - PL_MEM_CM
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - PL_MEM_CM_RAM
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - CM_MON_AXI_FW
+Adding component instance block -- xilinx.com:ip:system_management_wiz:1.3 - MONITOR
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - SI
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM1_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM2_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM1_PB_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - CM2_PB_UART
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - ESM_UART
+Adding component instance block -- xilinx.com:ip:axi_perf_mon:5.0 - AXI_MON
+Adding component instance block -- xilinx.com:ip:axi_firewall:1.2 - INT_AXI_FW
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/DMA_JTAG/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/DMA_JTAG/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- user.org:user:axis_jtag:1.0 - axis_jtag_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/axi_dma_0/M_AXIS_MM2S'. Parameter ignored.
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/axi_dma_0/M_AXIS_CNTRL'. Parameter ignored.
+WARNING: [BD 41-1282] Parameter 'HAS_BURST' is not defined on '/axi_dma_0/M_AXIS_CNTRL'. Parameter ignored.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_SG.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_MM2S.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_S2MM.
+Successfully read diagram <zynq_bd> from block design file <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/zynq_bd.bd>
+open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 4057.551 ; gain = 0.000
+current_project cdma_demo
+source C:/Users/aymer/Downloads/axi_dma_user_space_app/zynqmp_axidma_bd.tcl
+# namespace eval _tcl {
+# proc get_script_folder {} {
+#    set script_path [file normalize [info script]]
+#    set script_folder [file dirname $script_path]
+#    return $script_folder
+# }
+# }
+# variable script_folder
+# set script_folder [_tcl::get_script_folder]
+# set scripts_vivado_version 2020.2
+# set current_vivado_version [version -short]
+# if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
+#    puts ""
+#    catch {common::send_gid_msg -ssname BD::TCL -id 2041 -severity "ERROR" "This script was generated using Vivado <$scripts_vivado_version> and is being run in <$current_vivado_version> of Vivado. Please run the script in Vivado <$scripts_vivado_version> then open the design in Vivado <$current_vivado_version>. Upgrade the design by running \"Tools => Report => Report IP Status...\", then run write_bd_tcl to create an updated script."}
+# 
+#    return 1
+# }
+
+ERROR: [BD::TCL 103-2041] This script was generated using Vivado <2020.2> and is being run in <2023.2> of Vivado. Please run the script in Vivado <2020.2> then open the design in Vivado <2023.2>. Upgrade the design by running "Tools => Report => Report IP Status...", then run write_bd_tcl to create an updated script.
+1
+close_project
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+set_property location {4 1514 3417} [get_bd_cells axis_data_fifo_0]
+connect_bd_intf_net [get_bd_intf_pins axis_data_fifo_0/M_AXIS] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+startgroup
+set_property CONFIG.c_include_sg {0} [get_bd_cells axi_dma_0]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list \
+  CONFIG.PSU__SAXIGP2__DATA_WIDTH {32} \
+  CONFIG.PSU__USE__S_AXI_GP2 {1} \
+] [get_bd_cells ZynqMPSoC]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:smartconnect:1.0 smartconnect_0
+endgroup
+set_property location {2 407 3185} [get_bd_cells smartconnect_0]
+connect_bd_intf_net [get_bd_intf_pins smartconnect_0/M00_AXI] [get_bd_intf_pins ZynqMPSoC/S_AXI_HP0_FPD]
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXI_MM2S] [get_bd_intf_pins smartconnect_0/S00_AXI]
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXI_S2MM] [get_bd_intf_pins smartconnect_0/S01_AXI]
+connect_bd_net [get_bd_pins AXI_C2C_INTERCONNECT/M08_ARESETN] [get_bd_pins sys_resetter_c2c/peripheral_aresetn]
+connect_bd_net [get_bd_pins AXI_C2C_INTERCONNECT/M08_ACLK] [get_bd_pins ZynqMPSoC/pl_clk1]
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+connect_bd_net [get_bd_pins axi_dma_0/s_axi_lite_aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+connect_bd_net [get_bd_pins axi_dma_0/m_axi_mm2s_aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+connect_bd_net [get_bd_pins axi_dma_0/m_axi_s2mm_aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+connect_bd_net [get_bd_pins axis_data_fifo_0/s_axis_aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+connect_bd_net [get_bd_pins axi_dma_0/axi_resetn] [get_bd_pins sys_resetter_c2c/peripheral_aresetn]
+connect_bd_net [get_bd_pins axis_data_fifo_0/s_axis_aresetn] [get_bd_pins sys_resetter_c2c/peripheral_aresetn]
+connect_bd_net [get_bd_pins ZynqMPSoC/saxihp0_fpd_aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+connect_bd_net [get_bd_pins smartconnect_0/aclk] [get_bd_pins ZynqMPSoC/pl_clk1]
+startgroup
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+save_bd_design
+Wrote  : <C:\Dev\apollo_sm_vivado\apollo_sm_xu8\apollo_sm_xu8.srcs\sources_1\bd\zynq_bd\zynq_bd.bd> 
+Wrote  : <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/ui/bd_b36b3c9f.ui> 
+validate_bd_design
+WARNING: [BD 41-1629] Slave segment </ZynqMPSoC/SAXIGP3/HP1_LPS_OCM> is excluded from all addressing paths.
+CRITICAL WARNING: [BD 41-1356] Slave segment </axi_dma_0/S_AXI_LITE/Reg> is not assigned into address space </ZynqMPSoC/Data>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH> is not assigned into address space </axi_dma_0/Data_MM2S>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_DDR_LOW> is not assigned into address space </axi_dma_0/Data_MM2S>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_QSPI> is not assigned into address space </axi_dma_0/Data_MM2S>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_LPS_OCM> is not assigned into address space </axi_dma_0/Data_MM2S>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH> is not assigned into address space </axi_dma_0/Data_S2MM>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_DDR_LOW> is not assigned into address space </axi_dma_0/Data_S2MM>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_QSPI> is not assigned into address space </axi_dma_0/Data_S2MM>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-1356] Slave segment </ZynqMPSoC/SAXIGP2/HP0_LPS_OCM> is not assigned into address space </axi_dma_0/Data_S2MM>. Please use Address Editor to either assign or exclude it.
+CRITICAL WARNING: [BD 41-2909] Smartconnect block </smartconnect_0> has no assigned address segments through any of its interfaces and has its contents undefined, which may lead to black-box errors during implementation
+Resolution: Make sure that there is at least one address assigned through this Smartconnect and endpoints are correctly connected to each other
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_objects /axi_dma_0/S_AXI_LITE'
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_MM2S.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_S2MM.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_SG.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM'
+INFO: [xilinx.com:ip:smartconnect:1.0-1] zynq_bd_smartconnect_0_0: SmartConnect zynq_bd_smartconnect_0_0 is in High-performance Mode.
+xit::source_ipfile: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 4298.379 ; gain = 0.008
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : USER CLK OUT of /C2C2_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : SYNC CLK OUT of /C2C2_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : init_clk of /C2C2_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : refclk1_in of /C2C2_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : USER CLK OUT of /C2C1_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : SYNC CLK OUT of /C2C1_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : init_clk of /C2C1_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : refclk1_in of /C2C1_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : USER CLK OUT of /C2C1B_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : SYNC CLK OUT of /C2C1B_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : init_clk of /C2C1B_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : refclk1_in of /C2C1B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : USER CLK OUT of /C2C2B_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : SYNC CLK OUT of /C2C2B_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : init_clk of /C2C2B_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : refclk1_in of /C2C2B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+WARNING: [xilinx.com:ip:axi_intc:4.1-5] /IRQ0_INTR_CTRL: Number of interrupt inputs (24) does not match property SENSITIVITY (12 items) - using default interrupt type Rising Edge. Please change this manually if necessary.
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /DMA_JTAG/axi_dma_0
+                   #################################### 
+                   S_AXIS_S2MM interface is unconnected
+                   ####################################
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MON/SLOT_1_AXI(0) and /ZynqMPSoC/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MON/SLOT_1_AXI(0) and /ZynqMPSoC/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /C2C1/s_axi(0) and /C2C1_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /C2C1/s_axi(0) and /C2C1_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /C2C2/s_axi(0) and /C2C2_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /C2C2/s_axi(0) and /C2C2_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m00_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m00_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m09_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M09_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m09_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M09_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m10_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M10_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m10_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M10_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m11_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M11_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m11_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M11_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m12_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M12_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m12_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M12_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m13_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M13_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m13_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M13_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m14_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M14_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m14_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M14_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/xbar/S01_AXI(16) and /AXI_MAIN_INTERCONNECT/s01_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/xbar/S01_AXI(16) and /AXI_MAIN_INTERCONNECT/s01_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m05_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M05_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m05_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M05_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /PL_MEM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /PL_MEM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /PL_MEM_CM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /PL_MEM_CM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP1_FPD(1) and /DMA_JTAG/axi_interconnect_0/xbar/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP1_FPD(1) and /DMA_JTAG/axi_interconnect_0/xbar/M00_AXI(0)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/DMA_JTAG/axis_jtag_0/TDO_1
+
+validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 4319.762 ; gain = 77.156
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+assign_bd_address -target_address_space /axi_dma_0/Data_MM2S [get_bd_addr_segs ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH] -force
+WARNING: [BD 41-1627] Requested range of <32G> for slave segments </ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH> exceeds the range of the largest address space in assignment request </axi_dma_0/Data_MM2S>. Shrinking the initial requested range to <4G>
+CRITICAL WARNING: [BD 41-1376] Forcibly assigning slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' into address space '/axi_dma_0/Data_MM2S' at address <0x8_0000_0000 [ 4G ]>. This must be resolved before passing validation.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0x8_0000_0000 [ 4G ]>.
+delete_bd_objs [get_bd_addr_segs axi_dma_0/Data_MM2S/SEG_ZynqMPSoC_HP0_DDR_HIGH]
+assign_bd_address -target_address_space /axi_dma_0/Data_MM2S [get_bd_addr_segs ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH] -force
+WARNING: [BD 41-1627] Requested range of <32G> for slave segments </ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH> exceeds the range of the largest address space in assignment request </axi_dma_0/Data_MM2S>. Shrinking the initial requested range to <4G>
+CRITICAL WARNING: [BD 41-1376] Forcibly assigning slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' into address space '/axi_dma_0/Data_MM2S' at address <0x8_0000_0000 [ 4G ]>. This must be resolved before passing validation.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0x8_0000_0000 [ 4G ]>.
+set_property offset 0x000000000 [get_bd_addr_segs {axi_dma_0/Data_MM2S/SEG_ZynqMPSoC_HP0_DDR_HIGH}]
+assign_bd_address -target_address_space /axi_dma_0/Data_MM2S [get_bd_addr_segs ZynqMPSoC/SAXIGP2/HP0_DDR_LOW] -force
+CRITICAL WARNING: [BD 41-1376] Forcibly assigning slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_LOW' into address space '/axi_dma_0/Data_MM2S' at address <0x0000_0000 [ 2G ]>. This must be resolved before passing validation.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0x0000_0000 [ 2G ]>.
+set_property offset 0x800000000 [get_bd_addr_segs {DMA_JTAG/axi_dma_0/Data_MM2S/SEG_ZynqMPSoC_HP1_DDR_HIGH}]
+delete_bd_objs [get_bd_addr_segs axi_dma_0/Data_MM2S/SEG_ZynqMPSoC_HP0_DDR_LOW]
+set_property range 1G [get_bd_addr_segs {axi_dma_0/Data_MM2S/SEG_ZynqMPSoC_HP0_DDR_HIGH}]
+assign_bd_address
+WARNING: [BD 41-1743] Cannot assign slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' into address space '/axi_dma_0/Data_S2MM' because no valid addressing path exists. The addressing path from slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH' to address space '/axi_dma_0/Data_S2MM' terminates at master interface '/axi_dma_0/M_AXI_S2MM'. The apertures for this interface {<0x0_0000_0000 [ 4G ]>} do not intersect with previous path apertures {<0x8_0000_0000 [ 32G ]>}. This assignment will be automatically excluded.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0x4000_0000 [ 1G ]>.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0x4000_0000 [ 1G ]>.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_QSPI' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xC000_0000 [ 512M ]>.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_QSPI' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xC000_0000 [ 512M ]>.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xFF00_0000 [ 16M ]>.
+WARNING: [BD 41-1051] Slave segment '/ZynqMPSoC/SAXIGP2/HP0_LPS_OCM' with 'register' usage does not match address space '/axi_dma_0/Data_MM2S' with 'memory' usage so will be excluded from this address space. Please use the 'include_bd_addr_seg' command to override this precaution if required.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_LPS_OCM from address space /axi_dma_0/Data_MM2S.
+Slave segment '/ZynqMPSoC/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xFF00_0000 [ 16M ]>.
+WARNING: [BD 41-1051] Slave segment '/ZynqMPSoC/SAXIGP2/HP0_LPS_OCM' with 'register' usage does not match address space '/axi_dma_0/Data_S2MM' with 'memory' usage so will be excluded from this address space. Please use the 'include_bd_addr_seg' command to override this precaution if required.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_LPS_OCM from address space /axi_dma_0/Data_S2MM.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/ZynqMPSoC/Data' at <0xB402_0000 [ 64K ]>.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma_0/Data_S2MM.
+validate_bd_design
+WARNING: [BD 41-1629] Slave segment </ZynqMPSoC/SAXIGP3/HP1_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </ZynqMPSoC/SAXIGP2/HP0_LPS_OCM> is excluded from all addressing paths.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_DDR_HIGH from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_LPS_OCM from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /ZynqMPSoC/SAXIGP2/HP0_LPS_OCM from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_MM2S.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_S2MM.
+Excluding slave segment /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM from address space /DMA_JTAG/axi_dma_0/Data_SG.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /ZynqMPSoC/SAXIGP3/HP1_LPS_OCM'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 2G ]> from slave interface '/smartconnect_0/S00_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0xC000_0000 [ 512M ]> from slave interface '/smartconnect_0/S00_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 1G ]> from slave interface '/smartconnect_0/S01_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0xC000_0000 [ 512M ]> from slave interface '/smartconnect_0/S01_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] zynq_bd_smartconnect_0_0: SmartConnect zynq_bd_smartconnect_0_0 is in High-performance Mode.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : USER CLK OUT of /C2C2_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : SYNC CLK OUT of /C2C2_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : init_clk of /C2C2_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2_PHY NOTE : refclk1_in of /C2C2_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : USER CLK OUT of /C2C1_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : SYNC CLK OUT of /C2C1_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : init_clk of /C2C1_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1_PHY NOTE : refclk1_in of /C2C1_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : USER CLK OUT of /C2C1B_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : SYNC CLK OUT of /C2C1B_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : init_clk of /C2C1B_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C1B_PHY NOTE : refclk1_in of /C2C1B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : USER CLK OUT of /C2C2B_PHY (Aurora IP) has input port frequency configured as 78125000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : SYNC CLK OUT of /C2C2B_PHY (Aurora IP) has input port frequency configured as 156250000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : init_clk of /C2C2B_PHY (Aurora IP) has input port frequency configured as 50000000 Hz.
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : input is 100000000 Hz. configured is 100000000
+INFO: [xilinx.com:ip:aurora_64b66b:12.0-5910] /C2C2B_PHY NOTE : refclk1_in of /C2C2B_PHY (Aurora IP) has input port frequency configured as 100000000 Hz.
+WARNING: [xilinx.com:ip:axi_intc:4.1-5] /IRQ0_INTR_CTRL: Number of interrupt inputs (24) does not match property SENSITIVITY (12 items) - using default interrupt type Rising Edge. Please change this manually if necessary.
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /DMA_JTAG/axi_dma_0
+                   #################################### 
+                   S_AXIS_S2MM interface is unconnected
+                   ####################################
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MON/SLOT_1_AXI(0) and /ZynqMPSoC/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MON/SLOT_1_AXI(0) and /ZynqMPSoC/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /C2C1/s_axi(0) and /C2C1_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /C2C1/s_axi(0) and /C2C1_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /C2C2/s_axi(0) and /C2C2_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /C2C2/s_axi(0) and /C2C2_AXI_FW/M_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP0_FPD(1) and /smartconnect_0/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m00_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m00_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m09_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M09_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m09_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M09_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m10_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M10_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m10_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M10_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m11_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M11_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m11_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M11_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m12_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M12_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m12_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M12_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m13_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M13_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m13_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M13_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m14_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M14_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/m14_couplers/auto_pc/S_AXI(0) and /AXI_MAIN_INTERCONNECT/xbar/M14_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/xbar/S01_AXI(16) and /AXI_MAIN_INTERCONNECT/s01_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_MAIN_INTERCONNECT/xbar/S01_AXI(16) and /AXI_MAIN_INTERCONNECT/s01_couplers/auto_pc/M_AXI(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m01_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m05_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M05_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m05_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M05_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m06_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M06_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m07_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M07_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_C2C_INTERCONNECT/m08_couplers/auto_pc/S_AXI(0) and /AXI_C2C_INTERCONNECT/xbar/M08_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /PL_MEM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /PL_MEM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /PL_MEM_CM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /PL_MEM_CM/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m02_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m03_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /AXI_LOCAL_INTERCONNECT/m04_couplers/auto_pc/S_AXI(0) and /AXI_LOCAL_INTERCONNECT/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP1_FPD(1) and /DMA_JTAG/axi_interconnect_0/xbar/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ZynqMPSoC/S_AXI_HP1_FPD(1) and /DMA_JTAG/axi_interconnect_0/xbar/M00_AXI(0)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/DMA_JTAG/axis_jtag_0/TDO_1
+
+validate_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 4320.188 ; gain = 0.000
+save_bd_design
+Wrote  : <C:\Dev\apollo_sm_vivado\apollo_sm_xu8\apollo_sm_xu8.srcs\sources_1\bd\zynq_bd\zynq_bd.bd> 
+Wrote  : <C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/bd/zynq_bd/ui/bd_b36b3c9f.ui> 
+save_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 4320.188 ; gain = 0.000
+launch_runs synth_1 -jobs 10
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'uart_rx6(low_level_definition)' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 100 of file C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/imports/apollo/SM_ZYNQ_FW/src/CM_interface/picoblaze/uart_rx6.vhd
+Duplicate found in file C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.srcs/sources_1/imports/apollo/SM_ZYNQ_FW/src/misc/uart_rx6.vhd
+INFO: [BD 41-1662] The design 'zynq_bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/DMA_JTAG/axis_jtag_0/TDO_1
+
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/AXI_MAIN_INTERCONNECT/xbar/s_axi_awid'(17) to pin: '/AXI_MAIN_INTERCONNECT/s00_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/AXI_MAIN_INTERCONNECT/xbar/s_axi_arid'(17) to pin: '/AXI_MAIN_INTERCONNECT/s00_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/DMA_JTAG/axi_interconnect_0/xbar/m_axi_bid'(2) to pin: '/DMA_JTAG/axi_interconnect_0/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/DMA_JTAG/axi_interconnect_0/xbar/m_axi_rid'(2) to pin: '/DMA_JTAG/axi_interconnect_0/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C1B/s_axi_lite_arprot'(2) to pin: '/C2C1_AXILITE_FW/m_axi_arprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C1B/s_axi_lite_awprot'(2) to pin: '/C2C1_AXILITE_FW/m_axi_awprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C2B/s_axi_lite_arprot'(2) to pin: '/C2C2_AXILITE_FW/m_axi_arprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C2B/s_axi_lite_awprot'(2) to pin: '/C2C2_AXILITE_FW/m_axi_awprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/PL_MEM_RAM/addra'(32) to pin: '/PL_MEM/bram_addr_a'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/PL_MEM_CM_RAM/addra'(32) to pin: '/PL_MEM_CM/bram_addr_a'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/INT_AXI_FW/m_axi_rid'(16) to pin: '/AXI_MAIN_INTERCONNECT/S00_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/INT_AXI_FW/m_axi_bid'(16) to pin: '/AXI_MAIN_INTERCONNECT/S00_AXI_bid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ZynqMPSoC/saxigp3_awid'(6) to pin: '/DMA_JTAG/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ZynqMPSoC/saxigp3_arid'(6) to pin: '/DMA_JTAG/M00_AXI_arid'(2) - Only lower order bits will be connected.
+VHDL Output written to : c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/synth/zynq_bd.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/AXI_MAIN_INTERCONNECT/xbar/s_axi_awid'(17) to pin: '/AXI_MAIN_INTERCONNECT/s00_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/AXI_MAIN_INTERCONNECT/xbar/s_axi_arid'(17) to pin: '/AXI_MAIN_INTERCONNECT/s00_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/DMA_JTAG/axi_interconnect_0/xbar/m_axi_bid'(2) to pin: '/DMA_JTAG/axi_interconnect_0/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/DMA_JTAG/axi_interconnect_0/xbar/m_axi_rid'(2) to pin: '/DMA_JTAG/axi_interconnect_0/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C1B/s_axi_lite_arprot'(2) to pin: '/C2C1_AXILITE_FW/m_axi_arprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C1B/s_axi_lite_awprot'(2) to pin: '/C2C1_AXILITE_FW/m_axi_awprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C2B/s_axi_lite_arprot'(2) to pin: '/C2C2_AXILITE_FW/m_axi_arprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/C2C2B/s_axi_lite_awprot'(2) to pin: '/C2C2_AXILITE_FW/m_axi_awprot'(3) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/PL_MEM_RAM/addra'(32) to pin: '/PL_MEM/bram_addr_a'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/PL_MEM_CM_RAM/addra'(32) to pin: '/PL_MEM_CM/bram_addr_a'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/INT_AXI_FW/m_axi_rid'(16) to pin: '/AXI_MAIN_INTERCONNECT/S00_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/INT_AXI_FW/m_axi_bid'(16) to pin: '/AXI_MAIN_INTERCONNECT/S00_AXI_bid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ZynqMPSoC/saxigp3_awid'(6) to pin: '/DMA_JTAG/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ZynqMPSoC/saxigp3_arid'(6) to pin: '/DMA_JTAG/M00_AXI_arid'(2) - Only lower order bits will be connected.
+VHDL Output written to : c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/sim/zynq_bd.vhd
+VHDL Output written to : c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/hdl/zynq_bd_wrapper.vhd
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.5-0] zynq_bd_ZynqMPSoC_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM1_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP1_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ZynqMPSoC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_resetter_primary .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_resetter_primary_BUS_RST_N .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_resetter_c2c .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_resetter_c2c_BUS_RST_N .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SYS_RESET .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SYS_RESET_BUS_RST_N .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block IRQ0_INTR_CTRL .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block IRQ0_INTR_CTRL_IRQ .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1_PHY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1_AXI_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1B .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1B_PHY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C1_AXILITE_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2_PHY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2_AXI_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2B .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2B_PHY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block C2C2_AXILITE_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_LOCAL_INTERCONNECT/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PL_MEM .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PL_MEM_RAM .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PL_MEM_CM .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PL_MEM_CM_RAM .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CM_MON_AXI_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MONITOR .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SI .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_CM1_UART_0/zynq_bd_CM1_UART_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CM1_UART .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_CM2_UART_0/zynq_bd_CM2_UART_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CM2_UART .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_CM1_PB_UART_0/zynq_bd_CM1_PB_UART_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CM1_PB_UART .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_CM2_PB_UART_0/zynq_bd_CM2_PB_UART_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CM2_PB_UART .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ESM_UART_0/zynq_bd_ESM_UART_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ESM_UART .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MON .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block INT_AXI_FW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axis_data_fifo_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axis_jtag_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 .
+Exporting to file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_smartconnect_0_0/bd_0/hw_handoff/zynq_bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_smartconnect_0_0/bd_0/synth/zynq_bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_14/zynq_bd_auto_pc_14_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/s01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_0/zynq_bd_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_1/zynq_bd_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_2/zynq_bd_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_3/zynq_bd_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_4/zynq_bd_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_5/zynq_bd_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_6/zynq_bd_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_7/zynq_bd_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m08_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_8/zynq_bd_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m09_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_9/zynq_bd_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m10_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_10/zynq_bd_auto_pc_10_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m11_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_11/zynq_bd_auto_pc_11_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m12_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_12/zynq_bd_auto_pc_12_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m13_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_13/zynq_bd_auto_pc_13_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_MAIN_INTERCONNECT/m14_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_15/zynq_bd_auto_pc_15_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_16/zynq_bd_auto_pc_16_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_17/zynq_bd_auto_pc_17_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_18/zynq_bd_auto_pc_18_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_19/zynq_bd_auto_pc_19_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_20/zynq_bd_auto_pc_20_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_21/zynq_bd_auto_pc_21_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_C2C_INTERCONNECT/m08_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_22/zynq_bd_auto_pc_22_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_LOCAL_INTERCONNECT/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_23/zynq_bd_auto_pc_23_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_LOCAL_INTERCONNECT/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_pc_24/zynq_bd_auto_pc_24_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_LOCAL_INTERCONNECT/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_us_0/zynq_bd_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axi_interconnect_0/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_us_1/zynq_bd_auto_us_1_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axi_interconnect_0/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_auto_us_2/zynq_bd_auto_us_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA_JTAG/axi_interconnect_0/s02_couplers/auto_us .
+Exporting to file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/hw_handoff/zynq_bd.hwh
+Generated Hardware Definition File c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/synth/zynq_bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_AXI_MON_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1B_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1B_PHY_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1_AXILITE_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1_AXI_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C1_PHY_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2B_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2B_PHY_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2_AXILITE_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2_AXI_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_C2C2_PHY_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_CM1_PB_UART_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_CM1_UART_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_CM2_PB_UART_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_CM2_UART_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_CM_MON_AXI_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_ESM_UART_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_INT_AXI_FW_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_IRQ0_INTR_CTRL_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_MONITOR_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_PL_MEM_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_PL_MEM_CM_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_PL_MEM_CM_RAM_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_PL_MEM_RAM_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_SI_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_SYS_RESET_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_SYS_RESET_BUS_RST_N_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_ZynqMPSoC_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_10
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_11
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_12
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_13
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_14
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_15
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_16
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_17
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_18
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_19
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_20
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_21
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_22
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_23
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_24
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_3
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_4
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_5
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_6
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_7
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_pc_9
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_us_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_us_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_auto_us_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_axi_dma_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_axi_dma_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_axis_data_fifo_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_axis_data_fifo_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_axis_jtag_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_smartconnect_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_sys_resetter_c2c_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_sys_resetter_c2c_BUS_RST_N_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_sys_resetter_primary_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_sys_resetter_primary_BUS_RST_N_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_xbar_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_xbar_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_xbar_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP zynq_bd_xbar_3
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_AXI_MON_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2_AXI_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_CM1_PB_UART_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_CM2_PB_UART_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_PL_MEM_RAM_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_12
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_21
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_9
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_sys_resetter_c2c_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1B_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_MONITOR_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_11
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_7
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_axis_jtag_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1B_PHY_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2_AXILITE_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2_PHY_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_ESM_UART_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_SYS_RESET_BUS_RST_N_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_3
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_axi_dma_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_CM1_UART_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_PL_MEM_CM_RAM_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_13
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_22
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_us_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_sys_resetter_c2c_BUS_RST_N_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1_AXILITE_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1_AXI_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_CM2_UART_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_SI_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_14
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_23
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_us_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_sys_resetter_primary_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_CM_MON_AXI_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_SYS_RESET_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_15
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_24
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_us_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_sys_resetter_primary_BUS_RST_N_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C1_PHY_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2B_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_IRQ0_INTR_CTRL_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_17
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_axi_dma_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_xbar_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_INT_AXI_FW_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_ZynqMPSoC_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_20
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_smartconnect_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2B_PHY_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_PL_MEM_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_18
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_5
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_axis_data_fifo_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_xbar_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_PL_MEM_CM_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_10
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_19
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_6
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_axis_data_fifo_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_xbar_3
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'onboardclk'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'onboardclk'...
+[Mon Jul 15 16:42:41 2024] Launched zynq_bd_C2C1_0_synth_1, zynq_bd_CM2_UART_0_synth_1, zynq_bd_MONITOR_0_synth_1, zynq_bd_PL_MEM_RAM_0_synth_1, zynq_bd_PL_MEM_CM_RAM_0_synth_1, zynq_bd_PL_MEM_0_synth_1, zynq_bd_C2C1B_0_synth_1, zynq_bd_SYS_RESET_0_synth_1, zynq_bd_sys_resetter_c2c_0_synth_1, zynq_bd_sys_resetter_primary_0_synth_1, zynq_bd_sys_resetter_primary_BUS_RST_N_0_synth_1, zynq_bd_SYS_RESET_BUS_RST_N_0_synth_1, zynq_bd_sys_resetter_c2c_BUS_RST_N_0_synth_1, zynq_bd_ZynqMPSoC_0_synth_1, zynq_bd_C2C2B_0_synth_1, zynq_bd_C2C1_AXI_FW_0_synth_1, zynq_bd_CM_MON_AXI_FW_0_synth_1, zynq_bd_C2C1_PHY_0_synth_1, zynq_bd_CM1_PB_UART_0_synth_1, zynq_bd_SI_0_synth_1, zynq_bd_AXI_MON_0_synth_1, zynq_bd_C2C1_AXILITE_FW_0_synth_1, zynq_bd_C2C2B_PHY_0_synth_1, zynq_bd_C2C2_AXILITE_FW_0_synth_1, zynq_bd_C2C2_PHY_0_synth_1, zynq_bd_CM2_PB_UART_0_synth_1, zynq_bd_C2C2_0_synth_1, zynq_bd_C2C2_AXI_FW_0_synth_1, zynq_bd_xbar_2_synth_1, zynq_bd_ESM_UART_0_synth_1, zynq_bd_xbar_0_synth_1, zynq_bd_xbar_1_synth_1, zynq_bd_IRQ0_INTR_CTRL_0_synth_1, zynq_bd_INT_AXI_FW_0_synth_1, zynq_bd_CM1_UART_0_synth_1, zynq_bd_C2C1B_PHY_0_synth_1, zynq_bd_PL_MEM_CM_0_synth_1, zynq_bd_xbar_3_synth_1, zynq_bd_axis_jtag_0_0_synth_1, zynq_bd_axis_data_fifo_0_0_synth_1, zynq_bd_axi_dma_0_0_synth_1, onboardclk_synth_1, zynq_bd_auto_pc_1_synth_1, zynq_bd_auto_pc_12_synth_1, zynq_bd_auto_pc_21_synth_1, zynq_bd_auto_pc_14_synth_1, zynq_bd_auto_pc_0_synth_1, zynq_bd_auto_pc_7_synth_1, zynq_bd_auto_pc_9_synth_1, zynq_bd_auto_pc_8_synth_1, zynq_bd_auto_pc_6_synth_1, zynq_bd_auto_pc_13_synth_1, zynq_bd_auto_pc_15_synth_1, zynq_bd_auto_pc_2_synth_1, zynq_bd_auto_pc_5_synth_1, zynq_bd_auto_pc_4_synth_1, zynq_bd_auto_pc_3_synth_1, zynq_bd_auto_pc_16_synth_1, zynq_bd_auto_us_2_synth_1, zynq_bd_axis_data_fifo_0_1_synth_1, zynq_bd_smartconnect_0_0_synth_1, zynq_bd_auto_us_0_synth_1, zynq_bd_auto_us_1_synth_1, zynq_bd_axi_dma_0_1_synth_1, zynq_bd_auto_pc_18_synth_1, zynq_bd_auto_pc_19_synth_1, zynq_bd_auto_pc_20_synth_1, zynq_bd_auto_pc_17_synth_1, zynq_bd_auto_pc_24_synth_1, zynq_bd_auto_pc_22_synth_1, zynq_bd_auto_pc_23_synth_1, zynq_bd_auto_pc_10_synth_1, zynq_bd_auto_pc_11_synth_1...
+Run output will be captured here:
+zynq_bd_C2C1_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1_0_synth_1/runme.log
+zynq_bd_CM2_UART_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM2_UART_0_synth_1/runme.log
+zynq_bd_MONITOR_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/runme.log
+zynq_bd_PL_MEM_RAM_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_RAM_0_synth_1/runme.log
+zynq_bd_PL_MEM_CM_RAM_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_CM_RAM_0_synth_1/runme.log
+zynq_bd_PL_MEM_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_0_synth_1/runme.log
+zynq_bd_C2C1B_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1B_0_synth_1/runme.log
+zynq_bd_SYS_RESET_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_SYS_RESET_0_synth_1/runme.log
+zynq_bd_sys_resetter_c2c_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/runme.log
+zynq_bd_sys_resetter_primary_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_primary_0_synth_1/runme.log
+zynq_bd_sys_resetter_primary_BUS_RST_N_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_primary_BUS_RST_N_0_synth_1/runme.log
+zynq_bd_SYS_RESET_BUS_RST_N_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_SYS_RESET_BUS_RST_N_0_synth_1/runme.log
+zynq_bd_sys_resetter_c2c_BUS_RST_N_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_BUS_RST_N_0_synth_1/runme.log
+zynq_bd_ZynqMPSoC_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ZynqMPSoC_0_synth_1/runme.log
+zynq_bd_C2C2B_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_0_synth_1/runme.log
+zynq_bd_C2C1_AXI_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1_AXI_FW_0_synth_1/runme.log
+zynq_bd_CM_MON_AXI_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM_MON_AXI_FW_0_synth_1/runme.log
+zynq_bd_C2C1_PHY_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1_PHY_0_synth_1/runme.log
+zynq_bd_CM1_PB_UART_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM1_PB_UART_0_synth_1/runme.log
+zynq_bd_SI_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_SI_0_synth_1/runme.log
+zynq_bd_AXI_MON_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_AXI_MON_0_synth_1/runme.log
+zynq_bd_C2C1_AXILITE_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1_AXILITE_FW_0_synth_1/runme.log
+zynq_bd_C2C2B_PHY_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/runme.log
+zynq_bd_C2C2_AXILITE_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2_AXILITE_FW_0_synth_1/runme.log
+zynq_bd_C2C2_PHY_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2_PHY_0_synth_1/runme.log
+zynq_bd_CM2_PB_UART_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM2_PB_UART_0_synth_1/runme.log
+zynq_bd_C2C2_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2_0_synth_1/runme.log
+zynq_bd_C2C2_AXI_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2_AXI_FW_0_synth_1/runme.log
+zynq_bd_xbar_2_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_xbar_2_synth_1/runme.log
+zynq_bd_ESM_UART_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ESM_UART_0_synth_1/runme.log
+zynq_bd_xbar_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_xbar_0_synth_1/runme.log
+zynq_bd_xbar_1_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_xbar_1_synth_1/runme.log
+zynq_bd_IRQ0_INTR_CTRL_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_IRQ0_INTR_CTRL_0_synth_1/runme.log
+zynq_bd_INT_AXI_FW_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_INT_AXI_FW_0_synth_1/runme.log
+zynq_bd_CM1_UART_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM1_UART_0_synth_1/runme.log
+zynq_bd_C2C1B_PHY_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1B_PHY_0_synth_1/runme.log
+zynq_bd_PL_MEM_CM_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_CM_0_synth_1/runme.log
+zynq_bd_xbar_3_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_xbar_3_synth_1/runme.log
+zynq_bd_axis_jtag_0_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_axis_jtag_0_0_synth_1/runme.log
+zynq_bd_axis_data_fifo_0_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_axis_data_fifo_0_0_synth_1/runme.log
+zynq_bd_axi_dma_0_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_axi_dma_0_0_synth_1/runme.log
+onboardclk_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/onboardclk_synth_1/runme.log
+zynq_bd_auto_pc_1_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_1_synth_1/runme.log
+zynq_bd_auto_pc_12_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_12_synth_1/runme.log
+zynq_bd_auto_pc_21_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_21_synth_1/runme.log
+zynq_bd_auto_pc_14_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_14_synth_1/runme.log
+zynq_bd_auto_pc_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_0_synth_1/runme.log
+zynq_bd_auto_pc_7_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_7_synth_1/runme.log
+zynq_bd_auto_pc_9_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_9_synth_1/runme.log
+zynq_bd_auto_pc_8_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/runme.log
+zynq_bd_auto_pc_6_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_6_synth_1/runme.log
+zynq_bd_auto_pc_13_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_13_synth_1/runme.log
+zynq_bd_auto_pc_15_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_15_synth_1/runme.log
+zynq_bd_auto_pc_2_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_2_synth_1/runme.log
+zynq_bd_auto_pc_5_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_5_synth_1/runme.log
+zynq_bd_auto_pc_4_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_4_synth_1/runme.log
+zynq_bd_auto_pc_3_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_3_synth_1/runme.log
+zynq_bd_auto_pc_16_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_16_synth_1/runme.log
+zynq_bd_auto_us_2_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_2_synth_1/runme.log
+zynq_bd_axis_data_fifo_0_1_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_axis_data_fifo_0_1_synth_1/runme.log
+zynq_bd_smartconnect_0_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_smartconnect_0_0_synth_1/runme.log
+zynq_bd_auto_us_0_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_0_synth_1/runme.log
+zynq_bd_auto_us_1_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_1_synth_1/runme.log
+zynq_bd_axi_dma_0_1_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_axi_dma_0_1_synth_1/runme.log
+zynq_bd_auto_pc_18_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_18_synth_1/runme.log
+zynq_bd_auto_pc_19_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_19_synth_1/runme.log
+zynq_bd_auto_pc_20_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_20_synth_1/runme.log
+zynq_bd_auto_pc_17_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_17_synth_1/runme.log
+zynq_bd_auto_pc_24_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_24_synth_1/runme.log
+zynq_bd_auto_pc_22_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_22_synth_1/runme.log
+zynq_bd_auto_pc_23_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_23_synth_1/runme.log
+zynq_bd_auto_pc_10_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_10_synth_1/runme.log
+zynq_bd_auto_pc_11_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_11_synth_1/runme.log

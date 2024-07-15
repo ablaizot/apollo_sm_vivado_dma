@@ -1,0 +1,548 @@
+
+*** Running vivado
+    with args -log zynq_bd_ZynqMPSoC_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_ZynqMPSoC_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source zynq_bd_ZynqMPSoC_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 467.336 ; gain = 184.352
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_ZynqMPSoC_0
+Command: synth_design -top zynq_bd_ZynqMPSoC_0 -part xczu7ev-fbvb900-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26436
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:01:00 . Memory (MB): peak = 2020.363 ; gain = 386.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'dp_audi_ref_clk', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:2501]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_ZynqMPSoC_0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/synth/zynq_bd_ZynqMPSoC_0.vhd:226]
+WARNING: [Synth 8-3819] Generic 'GLOBAL_DATE' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_TIME' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'TOP_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'TOP_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'HOG_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'HOG_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'CON_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'CON_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XML_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XML_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XIL_DEFAULTLIB_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XIL_DEFAULTLIB_SHA' not present in instantiated entity will be ignored
+	Parameter C_DP_USE_AUDIO bound to: 0 - type: integer 
+	Parameter C_DP_USE_VIDEO bound to: 0 - type: integer 
+	Parameter C_MAXIGP0_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_MAXIGP1_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_MAXIGP2_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_SAXIGP0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP2_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_SAXIGP3_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP4_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP5_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP6_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP2 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP3 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP4 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP5 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP6 bound to: 0 - type: integer 
+	Parameter C_EN_FIFO_ENET0 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET1 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET2 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET3 bound to: 0 - type: string 
+	Parameter C_PL_CLK0_BUF bound to: TRUE - type: string 
+	Parameter C_PL_CLK1_BUF bound to: TRUE - type: string 
+	Parameter C_PL_CLK2_BUF bound to: FALSE - type: string 
+	Parameter C_PL_CLK3_BUF bound to: FALSE - type: string 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_DEBUG_TEST bound to: 0 - type: integer 
+	Parameter C_SD0_INTERNAL_BUS_WIDTH bound to: 8 - type: integer 
+	Parameter C_SD1_INTERNAL_BUS_WIDTH bound to: 4 - type: integer 
+	Parameter C_NUM_F2P_0_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_NUM_F2P_1_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_NUM_FABRIC_RESETS bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e' declared at 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:68' bound to instance 'U0' of component 'zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/synth/zynq_bd_ZynqMPSoC_0.vhd:1950]
+INFO: [Synth 8-6157] synthesizing module 'zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:68]
+INFO: [Synth 8-6157] synthesizing module 'BUFG_PS' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2186]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG_PS' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2186]
+INFO: [Synth 8-6157] synthesizing module 'PS8' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:113105]
+INFO: [Synth 8-6155] done synthesizing module 'PS8' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:113105]
+WARNING: [Synth 8-689] width (4) of port connection 'EMIOSDIO1DATAOUT' does not match port width (8) of module 'PS8' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:4699]
+WARNING: [Synth 8-689] width (4) of port connection 'EMIOSDIO1DATAENA' does not match port width (8) of module 'PS8' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:4700]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXN0OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXN1OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXN2OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXN3OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXP0OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXP1OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXP2OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTTXP3OUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_PADO' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_BOOTMODE' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_CLK' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DONEB' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMA' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMACTN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMALERTN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMBA' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMBG' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMCK' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMCKE' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMCKN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMCSN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMDM' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMDQ' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMDQS' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMDQSN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMODT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMPARITY' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_DRAMRAMRSTN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_ERROROUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_ERRORSTATUS' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_INITB' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_JTAGTCK' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_JTAGTDI' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_JTAGTDO' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_JTAGTMS' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MIO' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_PORB' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_PROGB' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_RCALIBINOUT' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_SRSTB' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_ZQ' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXN0IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXN1IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXN2IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXN3IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXP0IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXP1IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXP2IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_MGTRXP3IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_PADI' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFN0IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFN1IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFN2IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFN3IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFP0IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFP1IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFP2IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7071] port 'PSS_ALTO_CORE_PAD_REFP3IN' of module 'PS8' is unconnected for instance 'PS8_i' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+WARNING: [Synth 8-7023] instance 'PS8_i' of module 'PS8' has 1015 connections declared, but only 957 given [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:3876]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:68]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_ZynqMPSoC_0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/synth/zynq_bd_ZynqMPSoC_0.vhd:226]
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_DATE
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_TIME
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_SHA
+WARNING: [Synth 8-3848] Net dp_audio_ref_clk in module/entity zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e does not have driver. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:375]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_0 in module/entity zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e does not have driver. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:1395]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_1 in module/entity zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e does not have driver. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:1396]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_2 in module/entity zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e does not have driver. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:1397]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_3 in module/entity zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e does not have driver. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/hdl/zynq_ultra_ps_e_v3_5_1.v:1398]
+WARNING: [Synth 8-7129] Port dp_audio_ref_clk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port irq_ipi_pl_0 in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port irq_ipi_pl_1 in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port irq_ipi_pl_2 in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port irq_ipi_pl_3 in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihpc0_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihpc0_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihpc1_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihpc1_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp0_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp0_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp1_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp1_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp2_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp2_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp3_fpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxihp3_fpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxi_lpd_rclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port saxi_lpd_wclk in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[15] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[14] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[13] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[12] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[11] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[10] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[9] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[8] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[7] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_awuser[6] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[15] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[14] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[13] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[12] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[11] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[10] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[9] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[8] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[7] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sacefpd_aruser[6] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_clk[3] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_clk[2] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_clk[1] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_clk[0] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[31] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[30] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[29] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[28] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[27] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[26] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[25] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[24] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[23] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[22] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[21] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[20] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[19] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[18] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[17] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[16] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[15] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[14] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[13] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[12] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[11] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[10] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[9] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[8] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[7] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[6] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[5] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[4] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[3] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[2] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[1] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc_in[0] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[31] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[30] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[29] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[28] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[27] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[26] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[25] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[24] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[23] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[22] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[21] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[20] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[19] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[18] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[17] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[16] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[15] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[14] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[13] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[12] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[11] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[10] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[9] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[8] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_adc2_in[7] in module zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2148.344 ; gain = 514.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2148.344 ; gain = 514.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2148.344 ; gain = 514.434
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2148.344 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/zynq_bd_ZynqMPSoC_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/zynq_bd_ZynqMPSoC_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/zynq_bd_ZynqMPSoC_0.xdc] for cell 'U0'
+create_clock: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2175.258 ; gain = 0.043
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/zynq_bd_ZynqMPSoC_0.xdc] for cell 'U0'
+Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ZynqMPSoC_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ZynqMPSoC_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2175.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 2175.352 ; gain = 0.094
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2175.352 ; gain = 541.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-fbvb900-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2175.352 ; gain = 541.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/PS8_i. (constraint file  c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_ZynqMPSoC_0/zynq_bd_ZynqMPSoC_0.xdc, line 26).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ZynqMPSoC_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2175.352 ; gain = 541.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:01:27 . Memory (MB): peak = 2175.352 ; gain = 541.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:01:29 . Memory (MB): peak = 2175.352 ; gain = 541.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:02:15 . Memory (MB): peak = 3666.102 ; gain = 2032.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:02:15 . Memory (MB): peak = 3691.910 ; gain = 2058.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:02:16 . Memory (MB): peak = 3695.512 ; gain = 2061.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[0]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[7]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[6]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[5]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[4]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[3]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[2]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[1]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[4] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG_PS |     2|
+|2     |LUT1    |   264|
+|3     |PS8     |     1|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 570 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:02:11 . Memory (MB): peak = 3709.719 ; gain = 2048.801
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:02:23 . Memory (MB): peak = 3709.719 ; gain = 2075.809
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 3709.719 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
