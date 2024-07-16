@@ -1,0 +1,1117 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul 16 12:27:19 2024
+# Process ID: 18768
+# Current directory: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1
+# Command line: vivado.exe -log zynq_bd_C2C2B_PHY_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_C2C2B_PHY_0.tcl
+# Log file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/zynq_bd_C2C2B_PHY_0.vds
+# Journal file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1\vivado.jou
+# Running On: Thorntanker, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+source zynq_bd_C2C2B_PHY_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 466.211 ; gain = 184.270
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_C2C2B_PHY_0
+Command: synth_design -top zynq_bd_C2C2B_PHY_0 -part xczu7ev-fbvb900-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26492
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 2020.730 ; gain = 386.445
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'power_down_i', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support.v:232]
+INFO: [Synth 8-11241] undeclared symbol 'gt_refclk1_out', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support.v:298]
+INFO: [Synth 8-11241] undeclared symbol 'tx_lock', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support.v:304]
+INFO: [Synth 8-11241] undeclared symbol 'userclk_tx_active_out', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_multi_wrapper.v:488]
+INFO: [Synth 8-11241] undeclared symbol 'cplloutclk_out', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_multi_wrapper.v:534]
+INFO: [Synth 8-11241] undeclared symbol 'cplloutrefclk_out', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_multi_wrapper.v:535]
+WARNING: [Synth 8-10940] macro 'DLY' is redefined [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_polarity_check.v:74]
+WARNING: [Synth 8-10940] macro 'DLY' is redefined [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:81]
+INFO: [Synth 8-11241] undeclared symbol 'gt_cplllock_ii', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:520]
+INFO: [Synth 8-11241] undeclared symbol 'FSM_RESETDONE_i', assumed default net type 'wire' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:707]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_support' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support.v:67]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_CLOCK_MODULE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_clock_module.v:67]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_ultrascale_tx_userclk' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ultrascale_tx_userclk.v:60]
+INFO: [Synth 8-6157] synthesizing module 'BUFG_GT' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2127]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG_GT' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:2127]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_ultrascale_tx_userclk' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ultrascale_tx_userclk.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_CLOCK_MODULE' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_clock_module.v:67]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_SUPPORT_RESET_LOGIC' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support_reset_logic.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_SUPPORT_RESET_LOGIC' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support_reset_logic.v:61]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_core' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_core.v:70]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_RESET_LOGIC' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_reset_logic.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_RESET_LOGIC' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_reset_logic.v:61]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_AURORA_LANE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_aurora_lane.v:73]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_LANE_INIT_SM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_lane_init_sm.v:68]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133887]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133887]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_LANE_INIT_SM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_lane_init_sm.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_SYM_GEN' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_gen.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_SYM_GEN' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_gen.v:71]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_SYM_DEC' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_dec.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_SYM_DEC' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_dec.v:72]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_ERR_DETECT' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_err_detect.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_ERR_DETECT' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_err_detect.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_AURORA_LANE' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_aurora_lane.v:73]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_WRAPPER' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:64]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized1' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized1' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized1' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized1' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_MULTI_GT' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_multi_wrapper.v:65]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_ultrascale_rx_userclk' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_ultrascale_rx_userclk.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_ultrascale_rx_userclk' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_ultrascale_rx_userclk.v:59]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_gt' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt.v:53]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gtwizard_top' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gtwizard_top.v:173]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4.v:141]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gthe4_channel_wrapper' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gthe4_channel_wrapper.v:56]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_channel' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v:53]
+INFO: [Synth 8-6157] synthesizing module 'GTHE4_CHANNEL' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:45445]
+INFO: [Synth 8-6155] done synthesizing module 'GTHE4_CHANNEL' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:45445]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_channel' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gthe4_channel_wrapper' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gthe4_channel_wrapper.v:56]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_reset_synchronizer' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_reset_sync.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_reset_synchronizer' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_reset_sync.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_bit_synchronizer' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_bit_sync.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_bit_synchronizer' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_bit_sync.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_tx' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_freq_counter' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_freq_counter' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_tx' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_rx' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_rx' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gte4_drp_arb' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gte4_drp_arb' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_delay_powergood' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v:53]
+INFO: [Synth 8-226] default block is never used [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v:136]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gthe4_delay_powergood' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:53]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:162]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_reset_inv_synchronizer' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_reset_inv_synchronizer' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_userdata_tx' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_userdata_tx' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_userdata_rx' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_17_gtwiz_userdata_rx' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_gt_gtwizard_top' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt_gtwizard_top.v:173]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_gt' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_MULTI_GT' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_multi_wrapper.v:65]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_common_reset_cbcc' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_common_reset_cbcc.v:60]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized2' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized2' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized3' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized3' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized4' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized4' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized5' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_rst_sync__parameterized5' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:539]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_common_reset_cbcc' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_common_reset_cbcc.v:60]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_common_logic_cbcc' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_common_logic_cbcc.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_common_logic_cbcc' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_common_logic_cbcc.v:60]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_SCRAMBLER_64B66B' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_64b66b_scrambler.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_SCRAMBLER_64B66B' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_64b66b_scrambler.v:60]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized2' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized2' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_DESCRAMBLER_64B66B' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_64b66b_descrambler.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_DESCRAMBLER_64B66B' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_64b66b_descrambler.v:59]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_BLOCK_SYNC_SM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_block_sync_sm.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_BLOCK_SYNC_SM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_block_sync_sm.v:62]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_CLOCK_CORRECTION_CHANNEL_BONDING' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cbcc_gtx_6466.v:70]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_C2C2B_PHY_0_fifo_gen_master' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/synth/zynq_bd_C2C2B_PHY_0_fifo_gen_master.vhd:79]
+	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter C_DEFAULT_VALUE bound to: BlankString - type: string 
+	Parameter C_DIN_WIDTH bound to: 72 - type: integer 
+	Parameter C_DOUT_RST_VAL bound to: 0 - type: string 
+	Parameter C_DOUT_WIDTH bound to: 72 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_FULL_FLAGS_RST_VAL bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
+	Parameter C_HAS_BACKUP bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_INT_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_MEMINIT_FILE bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 1 - type: integer 
+	Parameter C_HAS_RD_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_RD_RST bound to: 0 - type: integer 
+	Parameter C_HAS_RST bound to: 0 - type: integer 
+	Parameter C_HAS_SRST bound to: 1 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 1 - type: integer 
+	Parameter C_HAS_VALID bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_WR_RST bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE bound to: 6 - type: integer 
+	Parameter C_INIT_WR_PNTR_VAL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 4 - type: integer 
+	Parameter C_MIF_FILE_NAME bound to: BlankString - type: string 
+	Parameter C_OPTIMIZATION_MODE bound to: 0 - type: integer 
+	Parameter C_OVERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 2 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 1 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE bound to: 512x72 - type: string 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL bound to: 12 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 13 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE bound to: 1 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 450 - type: integer 
+	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 449 - type: integer 
+	Parameter C_PROG_FULL_TYPE bound to: 1 - type: integer 
+	Parameter C_RD_DATA_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter C_RD_DEPTH bound to: 512 - type: integer 
+	Parameter C_RD_FREQ bound to: 1 - type: integer 
+	Parameter C_RD_PNTR_WIDTH bound to: 9 - type: integer 
+	Parameter C_UNDERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_USE_DOUT_RST bound to: 1 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 1 - type: integer 
+	Parameter C_USE_PIPELINE_REG bound to: 0 - type: integer 
+	Parameter C_POWER_SAVING_MODE bound to: 0 - type: integer 
+	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
+	Parameter C_USE_FWFT_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_VALID_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_DATA_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter C_WR_DEPTH bound to: 512 - type: integer 
+	Parameter C_WR_FREQ bound to: 1 - type: integer 
+	Parameter C_WR_PNTR_WIDTH bound to: 9 - type: integer 
+	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
+	Parameter C_MSGON_VAL bound to: 1 - type: integer 
+	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE bound to: 0 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_WR_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_RD_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_SLAVE_CE bound to: 0 - type: integer 
+	Parameter C_HAS_MASTER_CE bound to: 0 - type: integer 
+	Parameter C_ADD_NGC_CONSTRAINT bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_SETTINGS bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_LEN_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_AWUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_WUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_BUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ARUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_RUSER bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TDATA bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TREADY bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TSTRB_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TKEEP_WIDTH bound to: 1 - type: integer 
+	Parameter C_WACH_TYPE bound to: 0 - type: integer 
+	Parameter C_WDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_WRCH_TYPE bound to: 0 - type: integer 
+	Parameter C_RACH_TYPE bound to: 0 - type: integer 
+	Parameter C_RDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_AXIS_TYPE bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WRCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_AXIS bound to: 1 - type: integer 
+	Parameter C_APPLICATION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE_WACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WDCH bound to: 512x72 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WRCH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RDCH bound to: 512x72 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_AXIS bound to: 1kx18 - type: string 
+	Parameter C_USE_ECC_WACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WRCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_AXIS bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_DIN_WIDTH_WACH bound to: 1 - type: integer 
+	Parameter C_DIN_WIDTH_WDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_WRCH bound to: 2 - type: integer 
+	Parameter C_DIN_WIDTH_RACH bound to: 32 - type: integer 
+	Parameter C_DIN_WIDTH_RDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_AXIS bound to: 1 - type: integer 
+	Parameter C_WR_DEPTH_WACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_WDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_WRCH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_AXIS bound to: 1024 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WRCH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_AXIS bound to: 10 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_AXIS bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WRCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_AXIS bound to: 1023 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WRCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_AXIS bound to: 1022 - type: integer 
+	Parameter C_REG_SLICE_MODE_WACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WRCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_v13_2_9' declared at 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/ac72/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd:38305' bound to instance 'U0' of component 'fifo_generator_v13_2_9' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/synth/zynq_bd_C2C2B_PHY_0_fifo_gen_master.vhd:549]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_C2C2B_PHY_0_fifo_gen_master' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/synth/zynq_bd_C2C2B_PHY_0_fifo_gen_master.vhd:79]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_CLOCK_CORRECTION_CHANNEL_BONDING' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cbcc_gtx_6466.v:70]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:1346]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_WRAPPER' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/example_design/gt/zynq_bd_C2C2B_PHY_0_wrapper.v:64]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_GLOBAL_LOGIC' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_global_logic.v:67]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_channel_init_sm.v:79]
+INFO: [Synth 8-6157] synthesizing module 'FD' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40764]
+INFO: [Synth 8-6155] done synthesizing module 'FD' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40764]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_channel_init_sm.v:79]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_BOND_GEN' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ch_bond_code_gen.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_BOND_GEN' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ch_bond_code_gen.v:74]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_ERR_DETECT' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_channel_err_detect.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_CHANNEL_ERR_DETECT' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_channel_err_detect.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_GLOBAL_LOGIC' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_global_logic.v:67]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_AXI_TO_LL' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_axi_to_ll.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_AXI_TO_LL' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_axi_to_ll.v:62]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_LL_TO_AXI' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ll_to_axi.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_LL_TO_AXI' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_ll_to_axi.v:62]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream.v:69]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM_DATAPATH' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream_datapath.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM_DATAPATH' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream_datapath.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM_CONTROL_SM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream_control_sm.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM_CONTROL_SM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream_control_sm.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_TX_STREAM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_tx_stream.v:69]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_RX_STREAM' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_rx_stream.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_RX_STREAM_DATAPATH' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_rx_stream_datapath.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_RX_STREAM_DATAPATH' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_rx_stream_datapath.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_RX_STREAM' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_rx_stream.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zynq_bd_C2C2B_PHY_0_STANDARD_CC_MODULE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_standard_cc_module.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_STANDARD_CC_MODULE' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_standard_cc_module.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_core' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_core.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0_support' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_bd_C2C2B_PHY_0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0.v:68]
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_DATE
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_TIME
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_SHA
+WARNING: [Synth 8-6014] Unused sequential element stg6_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:596]
+WARNING: [Synth 8-6014] Unused sequential element stg7_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:597]
+WARNING: [Synth 8-6014] Unused sequential element stg8_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:598]
+WARNING: [Synth 8-6014] Unused sequential element stg9_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:599]
+WARNING: [Synth 8-6014] Unused sequential element stg10_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:600]
+WARNING: [Synth 8-6014] Unused sequential element stg11_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:601]
+WARNING: [Synth 8-6014] Unused sequential element stg12_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:602]
+WARNING: [Synth 8-6014] Unused sequential element stg13_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:603]
+WARNING: [Synth 8-6014] Unused sequential element stg14_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:604]
+WARNING: [Synth 8-6014] Unused sequential element stg15_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:605]
+WARNING: [Synth 8-6014] Unused sequential element stg16_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:606]
+WARNING: [Synth 8-6014] Unused sequential element stg17_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:607]
+WARNING: [Synth 8-6014] Unused sequential element stg18_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:608]
+WARNING: [Synth 8-6014] Unused sequential element stg19_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:609]
+WARNING: [Synth 8-6014] Unused sequential element stg20_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:610]
+WARNING: [Synth 8-6014] Unused sequential element stg21_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:611]
+WARNING: [Synth 8-6014] Unused sequential element stg22_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:612]
+WARNING: [Synth 8-6014] Unused sequential element stg23_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element stg24_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:614]
+WARNING: [Synth 8-6014] Unused sequential element stg25_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:615]
+WARNING: [Synth 8-6014] Unused sequential element stg26_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:616]
+WARNING: [Synth 8-6014] Unused sequential element stg27_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:617]
+WARNING: [Synth 8-6014] Unused sequential element stg28_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:618]
+WARNING: [Synth 8-6014] Unused sequential element stg29_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:619]
+WARNING: [Synth 8-6014] Unused sequential element stg30_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:620]
+WARNING: [Synth 8-6014] Unused sequential element stg31_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:621]
+INFO: [Synth 8-3936] Found unconnected internal register 'dly_gt_rst_r_reg' and it is trimmed from '20' to '19' bits. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_support_reset_logic.v:132]
+WARNING: [Synth 8-6014] Unused sequential element rxdatavalid_r_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_dec.v:196]
+WARNING: [Synth 8-6014] Unused sequential element sync_header_r_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_sym_dec.v:206]
+WARNING: [Synth 8-6014] Unused sequential element stg4_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:594]
+WARNING: [Synth 8-6014] Unused sequential element stg5_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:595]
+WARNING: [Synth 8-6014] Unused sequential element stg6_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:596]
+WARNING: [Synth 8-6014] Unused sequential element stg7_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:597]
+WARNING: [Synth 8-6014] Unused sequential element stg8_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:598]
+WARNING: [Synth 8-6014] Unused sequential element stg9_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:599]
+WARNING: [Synth 8-6014] Unused sequential element stg10_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:600]
+WARNING: [Synth 8-6014] Unused sequential element stg11_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:601]
+WARNING: [Synth 8-6014] Unused sequential element stg12_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:602]
+WARNING: [Synth 8-6014] Unused sequential element stg13_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:603]
+WARNING: [Synth 8-6014] Unused sequential element stg14_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:604]
+WARNING: [Synth 8-6014] Unused sequential element stg15_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:605]
+WARNING: [Synth 8-6014] Unused sequential element stg16_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:606]
+WARNING: [Synth 8-6014] Unused sequential element stg17_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:607]
+WARNING: [Synth 8-6014] Unused sequential element stg18_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:608]
+WARNING: [Synth 8-6014] Unused sequential element stg19_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:609]
+WARNING: [Synth 8-6014] Unused sequential element stg20_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:610]
+WARNING: [Synth 8-6014] Unused sequential element stg21_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:611]
+WARNING: [Synth 8-6014] Unused sequential element stg22_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:612]
+WARNING: [Synth 8-6014] Unused sequential element stg23_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element stg24_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:614]
+WARNING: [Synth 8-6014] Unused sequential element stg25_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:615]
+WARNING: [Synth 8-6014] Unused sequential element stg26_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:616]
+WARNING: [Synth 8-6014] Unused sequential element stg27_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:617]
+WARNING: [Synth 8-6014] Unused sequential element stg28_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:618]
+WARNING: [Synth 8-6014] Unused sequential element stg29_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:619]
+WARNING: [Synth 8-6014] Unused sequential element stg30_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:620]
+WARNING: [Synth 8-6014] Unused sequential element stg31_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:621]
+WARNING: [Synth 8-6014] Unused sequential element stg6_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:596]
+WARNING: [Synth 8-6014] Unused sequential element stg7_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:597]
+WARNING: [Synth 8-6014] Unused sequential element stg8_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:598]
+WARNING: [Synth 8-6014] Unused sequential element stg9_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:599]
+WARNING: [Synth 8-6014] Unused sequential element stg10_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:600]
+WARNING: [Synth 8-6014] Unused sequential element stg11_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:601]
+WARNING: [Synth 8-6014] Unused sequential element stg12_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:602]
+WARNING: [Synth 8-6014] Unused sequential element stg13_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:603]
+WARNING: [Synth 8-6014] Unused sequential element stg14_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:604]
+WARNING: [Synth 8-6014] Unused sequential element stg15_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:605]
+WARNING: [Synth 8-6014] Unused sequential element stg16_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:606]
+WARNING: [Synth 8-6014] Unused sequential element stg17_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:607]
+WARNING: [Synth 8-6014] Unused sequential element stg18_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:608]
+WARNING: [Synth 8-6014] Unused sequential element stg19_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:609]
+WARNING: [Synth 8-6014] Unused sequential element stg20_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:610]
+WARNING: [Synth 8-6014] Unused sequential element stg21_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:611]
+WARNING: [Synth 8-6014] Unused sequential element stg22_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:612]
+WARNING: [Synth 8-6014] Unused sequential element stg23_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element stg24_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:614]
+WARNING: [Synth 8-6014] Unused sequential element stg25_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:615]
+WARNING: [Synth 8-6014] Unused sequential element stg26_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:616]
+WARNING: [Synth 8-6014] Unused sequential element stg27_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:617]
+WARNING: [Synth 8-6014] Unused sequential element stg28_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:618]
+WARNING: [Synth 8-6014] Unused sequential element stg29_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:619]
+WARNING: [Synth 8-6014] Unused sequential element stg30_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:620]
+WARNING: [Synth 8-6014] Unused sequential element stg31_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:621]
+WARNING: [Synth 8-7137] Register freq_cnt_o_reg in module gtwizard_ultrascale_v1_7_17_gthe4_cpll_cal_freq_counter has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v:188]
+WARNING: [Synth 8-6014] Unused sequential element mask_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v:1077]
+WARNING: [Synth 8-6014] Unused sequential element stg12_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:602]
+WARNING: [Synth 8-6014] Unused sequential element stg13_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:603]
+WARNING: [Synth 8-6014] Unused sequential element stg14_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:604]
+WARNING: [Synth 8-6014] Unused sequential element stg15_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:605]
+WARNING: [Synth 8-6014] Unused sequential element stg16_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:606]
+WARNING: [Synth 8-6014] Unused sequential element stg17_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:607]
+WARNING: [Synth 8-6014] Unused sequential element stg18_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:608]
+WARNING: [Synth 8-6014] Unused sequential element stg19_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:609]
+WARNING: [Synth 8-6014] Unused sequential element stg20_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:610]
+WARNING: [Synth 8-6014] Unused sequential element stg21_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:611]
+WARNING: [Synth 8-6014] Unused sequential element stg22_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:612]
+WARNING: [Synth 8-6014] Unused sequential element stg23_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:613]
+WARNING: [Synth 8-6014] Unused sequential element stg24_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:614]
+WARNING: [Synth 8-6014] Unused sequential element stg25_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:615]
+WARNING: [Synth 8-6014] Unused sequential element stg26_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:616]
+WARNING: [Synth 8-6014] Unused sequential element stg27_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:617]
+WARNING: [Synth 8-6014] Unused sequential element stg28_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0/src/zynq_bd_C2C2B_PHY_0_cdc_sync.v:618]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port LL_IP_SOF_N in module zynq_bd_C2C2B_PHY_0_LL_TO_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LANE_UP in module zynq_bd_C2C2B_PHY_0_CHANNEL_ERR_DETECT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CH_BOND_DONE in module zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_NA_IDLES in module zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_CC in module zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_CB in module zynq_bd_C2C2B_PHY_0_CHANNEL_INIT_SM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_rst_n in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[31] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[30] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[29] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[28] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[27] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[26] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[25] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[24] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[23] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[22] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[21] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[20] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[19] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[18] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[17] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[16] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[15] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[14] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[13] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[12] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[11] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[10] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[9] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[8] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[7] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[6] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[5] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[4] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[3] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[2] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[1] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_rst_n in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[31] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[30] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[29] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[28] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[27] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[26] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[25] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[24] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[23] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[22] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[21] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[20] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[19] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[18] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[17] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[16] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[15] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[14] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[13] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[12] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[11] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[10] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[9] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[8] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[7] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[6] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[5] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[4] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[3] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[2] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[1] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_rst_n in module zynq_bd_C2C2B_PHY_0_cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALMOST_FULL_I in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALMOST_EMPTY_I in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_ACK_I in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port VALID_I in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[8] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[7] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[6] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[5] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[4] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[3] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[2] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[1] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DATA_COUNT_I[0] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[8] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[7] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[6] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[5] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[4] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[3] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[2] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[1] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WR_DATA_COUNT_I[0] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RD_DATA_COUNT_I[8] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RD_DATA_COUNT_I[7] in module output_blk is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RD_DATA_COUNT_I[6] in module output_blk is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 2316.945 ; gain = 682.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 2316.945 ; gain = 682.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 2316.945 ; gain = 682.660
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.180 . Memory (MB): peak = 2323.035 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2436.141 ; gain = 0.145
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_waivers.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_waivers.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_waivers.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/zynq_bd_C2C2B_PHY_0_fifo_gen_master.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/master_fifo.data_fifo/U0'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/zynq_bd_C2C2B_PHY_0_fifo_gen_master.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/master_fifo.data_fifo/U0'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i/inst'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_0/synth/zynq_bd_C2C2B_PHY_0_gt.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zynq_bd_C2C2B_PHY_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/zynq_bd_C2C2B_PHY_0_fifo_gen_master_clocks.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/master_fifo.data_fifo/U0'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/ip_1/zynq_bd_C2C2B_PHY_0_fifo_gen_master_clocks.xdc] for cell 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/master_fifo.data_fifo/U0'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_C2C2B_PHY_0/zynq_bd_C2C2B_PHY_0_clocks.xdc] for cell 'inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2436.141 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  FD => FDRE: 1 instance 
+  FDR => FDRE: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.196 . Memory (MB): peak = 2436.141 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:47 . Memory (MB): peak = 2436.141 ; gain = 801.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-fbvb900-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:47 . Memory (MB): peak = 2436.141 ; gain = 801.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/\master_fifo.data_fifo /U0. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc, line 14).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i/inst. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/dont_touch.xdc, line 26).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/\master_fifo.data_fifo . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:48 . Memory (MB): peak = 2436.141 ; gain = 801.855
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'progclk_sel_store_reg' and it is trimmed from '16' to '15' bits. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v:705]
+WARNING: [Synth 8-3936] Found unconnected internal register 'x0e1_store_reg' and it is trimmed from '16' to '15' bits. [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ipshared/5b53/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v:778]
+INFO: [Synth 8-802] inferred FSM for state register 'arb_state_reg' in module 'gtwizard_ultrascale_v1_7_17_gte4_drp_arb'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_all_reg' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_tx_reg' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_rx_reg' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'cdr_reset_fsm_r_reg' in module 'zynq_bd_C2C2B_PHY_0_WRAPPER'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               ARB_START |                             0001 |                             0001
+                ARB_WAIT |                             0010 |                             0010
+              ARB_REPORT |                             0100 |                             0100
+                 ARB_INC |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'arb_state_reg' in module 'gtwizard_ultrascale_v1_7_17_gte4_drp_arb'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_TX_BRANCH |                              000 |                              000
+         ST_RESET_TX_PLL |                              001 |                              001
+    ST_RESET_TX_DATAPATH |                              010 |                              010
+   ST_RESET_TX_WAIT_LOCK |                              011 |                              011
+ST_RESET_TX_WAIT_USERRDY |                              100 |                              100
+ST_RESET_TX_WAIT_RESETDONE |                              101 |                              101
+        ST_RESET_TX_IDLE |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_tx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_RX_BRANCH |                              000 |                              000
+         ST_RESET_RX_PLL |                              001 |                              001
+    ST_RESET_RX_DATAPATH |                              010 |                              010
+   ST_RESET_RX_WAIT_LOCK |                              011 |                              011
+    ST_RESET_RX_WAIT_CDR |                              100 |                              100
+ST_RESET_RX_WAIT_USERRDY |                              101 |                              101
+ST_RESET_RX_WAIT_RESETDONE |                              110 |                              110
+        ST_RESET_RX_IDLE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_rx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+     ST_RESET_ALL_BRANCH |                              000 |                              001
+     ST_RESET_ALL_TX_PLL |                              001 |                              010
+ST_RESET_ALL_TX_PLL_WAIT |                              010 |                              011
+      ST_RESET_ALL_RX_DP |                              011 |                              100
+     ST_RESET_ALL_RX_PLL |                              100 |                              101
+    ST_RESET_ALL_RX_WAIT |                              101 |                              110
+                  iSTATE |                              110 |                              111
+       ST_RESET_ALL_INIT |                              111 |                              000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_all_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_17_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+          ASSERT_RXRESET |                              010 |                               01
+                    DONE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cdr_reset_fsm_r_reg' using encoding 'one-hot' in module 'zynq_bd_C2C2B_PHY_0_WRAPPER'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:51 . Memory (MB): peak = 2436.141 ; gain = 801.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   25 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 1     
+	   3 Input   18 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 3     
+	   2 Input   10 Bit       Adders := 4     
+	   2 Input    8 Bit       Adders := 5     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 5     
+	   2 Input    3 Bit       Adders := 5     
+	   2 Input    2 Bit       Adders := 4     
++---XORs : 
+	   3 Input      1 Bit         XORs := 96    
++---Registers : 
+	               64 Bit    Registers := 6     
+	               58 Bit    Registers := 2     
+	               48 Bit    Registers := 2     
+	               40 Bit    Registers := 3     
+	               35 Bit    Registers := 2     
+	               32 Bit    Registers := 5     
+	               30 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               23 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 10    
+	               15 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 8     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 10    
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 612   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 4     
+	   5 Input   48 Bit        Muxes := 1     
+	   2 Input   48 Bit        Muxes := 2     
+	  33 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 3     
+	   2 Input   28 Bit        Muxes := 1     
+	   2 Input   27 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 1     
+	  33 Input   25 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 1     
+	   4 Input   22 Bit        Muxes := 1     
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	  33 Input   16 Bit        Muxes := 2     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 5     
+	   4 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 2     
+	   5 Input    8 Bit        Muxes := 2     
+	   7 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   8 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 4     
+	   3 Input    7 Bit        Muxes := 1     
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   6 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	  33 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 16    
+	   5 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   4 Input    2 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 42    
+	  33 Input    1 Bit        Muxes := 18    
+	   5 Input    1 Bit        Muxes := 6     
+	   8 Input    1 Bit        Muxes := 29    
+	   7 Input    1 Bit        Muxes := 25    
+	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:59 . Memory (MB): peak = 2436.141 ; gain = 801.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/ultrascale_rx_userclk/gtwiz_userclk_rx_reset_in' to pin 'inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/gtwiz_userclk_rx_reset_in_r_reg/Q'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:01:21 . Memory (MB): peak = 2733.691 ; gain = 1099.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:01:23 . Memory (MB): peak = 2784.953 ; gain = 1150.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:01:24 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d2_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d3_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d4_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d5_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d6_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_out_d7_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d1_zynq_bd_C2C2B_PHY_0_cdc_to_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d2_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin zynq_bd_C2C2B_PHY_0_core_i/aurora_lane_0_i/lane_init_sm_i/u_cdc_rxlossofsync_in/s_level_out_bus_d3_inferred:in0[3] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:01:30 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:01:30 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:01:30 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:01:30 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:01:31 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:01:31 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------------------+------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                 | RTL Name                                                                                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------------------+------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|zynq_bd_C2C2B_PHY_0_support | support_reset_logic_i/dly_gt_rst_r_reg[18]                                                     | 19     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|zynq_bd_C2C2B_PHY_0_support | zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/cbcc_gtx0_i/wait_for_wr_en_wr4_reg[5] | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
++----------------------------+------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG_GT       |     4|
+|2     |CARRY8        |    22|
+|3     |FIFO36E2      |     1|
+|4     |GTHE4_CHANNEL |     1|
+|5     |LUT1          |  2454|
+|6     |LUT2          |   127|
+|7     |LUT3          |   187|
+|8     |LUT4          |   143|
+|9     |LUT5          |   154|
+|10    |LUT6          |   179|
+|11    |MUXF7         |     1|
+|12    |SRL16E        |     6|
+|13    |SRLC32E       |    38|
+|14    |FD            |     1|
+|15    |FDCE          |   110|
+|16    |FDPE          |    53|
+|17    |FDR           |     2|
+|18    |FDRE          |  1943|
+|19    |FDSE          |    57|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:01:31 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1005 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:01:17 . Memory (MB): peak = 2785.730 ; gain = 1032.250
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:01:31 . Memory (MB): peak = 2785.730 ; gain = 1151.445
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.160 . Memory (MB): peak = 2785.730 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i/inst/gen_gtwizard_gthe4_top.zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[1].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC for BUFG_GT inst/clock_module_i/ultrascale_tx_userclk_1/gen_gtwiz_userclk_tx_main.bufg_gt_usrclk2_inst
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/zynq_bd_C2C2B_PHY_0_gt_i/inst/gen_gtwizard_gthe4_top.zynq_bd_C2C2B_PHY_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[1].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/BUFG_GT_SYNC_1 for BUFG_GT inst/zynq_bd_C2C2B_PHY_0_core_i/zynq_bd_C2C2B_PHY_0_wrapper_i/zynq_bd_C2C2B_PHY_0_multi_gt_i/ultrascale_rx_userclk/gen_gtwiz_userclk_rx_main.bufg_gt_usrclk_inst
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2824.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  FD => FDRE: 1 instance 
+  FDR => FDRE: 2 instances
+
+Synth Design complete | Checksum: 1e01abd
+INFO: [Common 17-83] Releasing license: Synthesis
+293 Infos, 220 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:01:48 . Memory (MB): peak = 2824.391 ; gain = 2303.223
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2824.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/zynq_bd_C2C2B_PHY_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zynq_bd_C2C2B_PHY_0, cache-ID = d0b82c370ef7ecc3
+INFO: [Coretcl 2-1174] Renamed 46 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2824.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C2B_PHY_0_synth_1/zynq_bd_C2C2B_PHY_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zynq_bd_C2C2B_PHY_0_utilization_synth.rpt -pb zynq_bd_C2C2B_PHY_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 12:29:26 2024...

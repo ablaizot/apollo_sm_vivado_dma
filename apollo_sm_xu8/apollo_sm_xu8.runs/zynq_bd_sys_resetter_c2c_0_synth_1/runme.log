@@ -331,3 +331,32 @@ Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memo
 INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file zynq_bd_sys_resetter_c2c_0_utilization_synth.rpt -pb zynq_bd_sys_resetter_c2c_0_utilization_synth.pb
 INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 16:46:22 2024...
+
+*** Running vivado
+    with args -log zynq_bd_sys_resetter_c2c_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_sys_resetter_c2c_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source zynq_bd_sys_resetter_c2c_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 464.816 ; gain = 184.438
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_sys_resetter_c2c_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 906b9fd159f1c365 to dir: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/9/0/906b9fd159f1c365/zynq_bd_sys_resetter_c2c_0.dcp to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/9/0/906b9fd159f1c365/zynq_bd_sys_resetter_c2c_0_sim_netlist.v to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/9/0/906b9fd159f1c365/zynq_bd_sys_resetter_c2c_0_sim_netlist.vhdl to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/9/0/906b9fd159f1c365/zynq_bd_sys_resetter_c2c_0_stub.v to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/9/0/906b9fd159f1c365/zynq_bd_sys_resetter_c2c_0_stub.vhdl to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1/zynq_bd_sys_resetter_c2c_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP zynq_bd_sys_resetter_c2c_0, cache-ID = 906b9fd159f1c365.
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 17:52:13 2024...

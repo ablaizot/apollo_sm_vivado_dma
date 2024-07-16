@@ -5073,6 +5073,10 @@ Note: This value must be greater than or equal to the largest expected packet to
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Jul 16 10:33:18 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
             <spirit:value>9:0b245821</spirit:value>
           </spirit:parameter>

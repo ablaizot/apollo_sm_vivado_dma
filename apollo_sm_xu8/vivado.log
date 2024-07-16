@@ -1252,3 +1252,115 @@ zynq_bd_auto_pc_22_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.
 zynq_bd_auto_pc_23_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_23_synth_1/runme.log
 zynq_bd_auto_pc_10_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_10_synth_1/runme.log
 zynq_bd_auto_pc_11_synth_1: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_11_synth_1/runme.log
+[Mon Jul 15 16:42:50 2024] Launched synth_1...
+Run output will be captured here: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:56 ; elapsed = 00:01:49 . Memory (MB): peak = 4510.816 ; gain = 186.449
+reset_run synth_1
+reset_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4510.816 ; gain = 0.000
+reset_run zynq_bd_PL_MEM_CM_RAM_0_synth_1
+reset_run zynq_bd_sys_resetter_primary_0_synth_1
+reset_run zynq_bd_SYS_RESET_BUS_RST_N_0_synth_1
+reset_run zynq_bd_sys_resetter_c2c_BUS_RST_N_0_synth_1
+reset_run zynq_bd_C2C2B_0_synth_1
+reset_run zynq_bd_C2C1_AXI_FW_0_synth_1
+reset_run zynq_bd_CM_MON_AXI_FW_0_synth_1
+reset_run zynq_bd_C2C1_PHY_0_synth_1
+reset_run zynq_bd_CM1_PB_UART_0_synth_1
+reset_run zynq_bd_SI_0_synth_1
+reset_run zynq_bd_AXI_MON_0_synth_1
+reset_run zynq_bd_C2C1_AXILITE_FW_0_synth_1
+reset_run zynq_bd_C2C2B_PHY_0_synth_1
+reset_run zynq_bd_C2C2_AXILITE_FW_0_synth_1
+reset_run zynq_bd_C2C2_PHY_0_synth_1
+reset_run zynq_bd_CM2_PB_UART_0_synth_1
+reset_run zynq_bd_C2C2_0_synth_1
+reset_run zynq_bd_C2C2_AXI_FW_0_synth_1
+reset_run zynq_bd_xbar_2_synth_1
+reset_run zynq_bd_ESM_UART_0_synth_1
+reset_run zynq_bd_xbar_0_synth_1
+reset_run zynq_bd_xbar_1_synth_1
+reset_run zynq_bd_IRQ0_INTR_CTRL_0_synth_1
+reset_run zynq_bd_INT_AXI_FW_0_synth_1
+reset_run zynq_bd_CM1_UART_0_synth_1
+reset_run zynq_bd_C2C1B_PHY_0_synth_1
+reset_run zynq_bd_PL_MEM_CM_0_synth_1
+reset_run zynq_bd_xbar_3_synth_1
+reset_run zynq_bd_axis_jtag_0_0_synth_1
+reset_run zynq_bd_axis_data_fifo_0_0_synth_1
+reset_run zynq_bd_axi_dma_0_0_synth_1
+reset_run zynq_bd_auto_pc_1_synth_1
+reset_run zynq_bd_auto_pc_12_synth_1
+reset_run zynq_bd_auto_pc_21_synth_1
+reset_run zynq_bd_auto_pc_14_synth_1
+reset_run zynq_bd_auto_pc_0_synth_1
+reset_run zynq_bd_auto_pc_7_synth_1
+reset_run zynq_bd_auto_pc_9_synth_1
+reset_run zynq_bd_auto_pc_8_synth_1
+reset_run zynq_bd_auto_pc_6_synth_1
+reset_run zynq_bd_auto_pc_13_synth_1
+reset_run zynq_bd_auto_pc_15_synth_1
+reset_run zynq_bd_auto_pc_2_synth_1
+reset_run zynq_bd_auto_pc_5_synth_1
+reset_run zynq_bd_auto_pc_4_synth_1
+reset_run zynq_bd_auto_pc_3_synth_1
+reset_run zynq_bd_auto_pc_16_synth_1
+reset_run zynq_bd_auto_us_2_synth_1
+reset_run zynq_bd_axis_data_fifo_0_1_synth_1
+reset_run zynq_bd_smartconnect_0_0_synth_1
+reset_run zynq_bd_auto_us_0_synth_1
+reset_run zynq_bd_auto_us_1_synth_1
+reset_run zynq_bd_axi_dma_0_1_synth_1
+reset_run zynq_bd_auto_pc_18_synth_1
+reset_run zynq_bd_auto_pc_19_synth_1
+reset_run zynq_bd_auto_pc_20_synth_1
+reset_run zynq_bd_auto_pc_17_synth_1
+reset_run zynq_bd_auto_pc_24_synth_1
+reset_run zynq_bd_auto_pc_22_synth_1
+reset_run zynq_bd_auto_pc_23_synth_1
+reset_run zynq_bd_auto_pc_10_synth_1
+reset_run zynq_bd_auto_pc_11_synth_1
+reset_run onboardclk_synth_1
+reset_run zynq_bd_C2C1_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to reset run step 
+2. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1_0_synth_1
+
+reset_run zynq_bd_CM2_UART_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_CM2_UART_0_synth_1
+
+reset_run zynq_bd_MONITOR_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1
+
+reset_run zynq_bd_PL_MEM_RAM_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_RAM_0_synth_1
+
+reset_run zynq_bd_PL_MEM_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_PL_MEM_0_synth_1
+
+reset_run zynq_bd_C2C1B_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_C2C1B_0_synth_1
+
+reset_run zynq_bd_SYS_RESET_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_SYS_RESET_0_synth_1
+
+reset_run zynq_bd_sys_resetter_c2c_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_sys_resetter_c2c_0_synth_1
+
+reset_run zynq_bd_sys_resetter_primary_BUS_RST_N_0_synth_1
+reset_run zynq_bd_ZynqMPSoC_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_ZynqMPSoC_0_synth_1
+
+write_hw_platform -fixed -include_bit -force -file C:/Dev/apollo_sm_vivado/apollo_sm_xu8/top.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/top.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2023.2/data/embeddedsw) loading 1 seconds
+ERROR: [Common 17-69] Command failed: Unable to get BIT file from implementation run. Please ensure implementation has been run all the way through Bitstream generation. Aborting write_hw_platform..
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 17:38:53 2024...

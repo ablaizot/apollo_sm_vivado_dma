@@ -22502,6 +22502,10 @@ Note: De-assertion of metric reset (asserted though Control register) takes five
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Jul 16 10:30:46 UTC 2024</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
             <spirit:value>9:44c3da32</spirit:value>
           </spirit:parameter>

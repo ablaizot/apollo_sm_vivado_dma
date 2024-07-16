@@ -14,7 +14,7 @@ ECHO is off.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source zynq_bd_MONITOR_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 465.895 ; gain = 184.367
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 466.234 ; gain = 185.559
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
@@ -26,9 +26,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev
 INFO: [Device 21-403] Loading part xczu7ev-fbvb900-2-i
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 29456
+INFO: [Synth 8-7075] Helper process launched with PID 23644
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:01:00 . Memory (MB): peak = 2006.738 ; gain = 384.691
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 2007.684 ; gain = 385.301
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.vhd:101]
 WARNING: [Synth 8-3819] Generic 'GLOBAL_DATE' not present in instantiated entity will be ignored
@@ -462,18 +462,18 @@ WARNING: [Synth 8-7129] Port Bus2IP_Data[9] in module zynq_bd_MONITOR_0_xadc_cor
 WARNING: [Synth 8-7129] Port Bus2IP_Data[10] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:01:05 . Memory (MB): peak = 2164.906 ; gain = 542.859
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2164.906 ; gain = 542.859
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 2164.906 ; gain = 542.859
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2164.906 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2165.789 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -481,7 +481,7 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_ooc.xdc] for cell 'U0'
-create_clock: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2261.871 ; gain = 2.914
+create_clock: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2230.273 ; gain = 5.457
 Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_ooc.xdc] for cell 'U0'
 Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_board.xdc] for cell 'U0'
 Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_board.xdc] for cell 'U0'
@@ -493,16 +493,16 @@ Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_
 Finished Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2261.871 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2230.273 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 17 instances were transformed.
   FDRSE => FDRSE (FDRE, LUT4, VCC): 17 instances
 
 The system cannot find the path specified.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2262.039 ; gain = 0.168
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2230.648 ; gain = 0.375
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2262.039 ; gain = 639.992
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -510,14 +510,14 @@ Start Loading Part and Timing Information
 Loading part: xczu7ev-fbvb900-2-i
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2262.039 ; gain = 639.992
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2262.039 ; gain = 639.992
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'zynq_bd_MONITOR_0_slave_attachment'
 ---------------------------------------------------------------------------------------------------
@@ -530,7 +530,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'zynq_
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'zynq_bd_MONITOR_0_slave_attachment'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:01:27 . Memory (MB): peak = 2262.039 ; gain = 639.992
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:35 . Memory (MB): peak = 2230.648 ; gain = 608.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -577,8 +577,223 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:01:31 . Memory (MB): peak = 2262.039 ; gain = 639.992
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 2230.648 ; gain = 608.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:01:02 . Memory (MB): peak = 2675.035 ; gain = 1052.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:01:27 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:01:32 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_master_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_slave0_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_slave1_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_master_reg2_inferred:in0 to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |   152|
+|2     |LUT2     |    36|
+|3     |LUT3     |    26|
+|4     |LUT4     |    23|
+|5     |LUT5     |    69|
+|6     |LUT6     |    46|
+|7     |SYSMONE4 |     1|
+|8     |FDRE     |   227|
+|9     |FDSE     |    37|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 164 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:01:52 . Memory (MB): peak = 2754.277 ; gain = 1067.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2754.277 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: ed7f9fb9
+INFO: [Common 17-83] Releasing license: Synthesis
+116 Infos, 230 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:02:48 . Memory (MB): peak = 2756.637 ; gain = 2238.621
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/zynq_bd_MONITOR_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zynq_bd_MONITOR_0, cache-ID = 9a5deb56b4dcc611
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/zynq_bd_MONITOR_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zynq_bd_MONITOR_0_utilization_synth.rpt -pb zynq_bd_MONITOR_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 12:26:47 2024...

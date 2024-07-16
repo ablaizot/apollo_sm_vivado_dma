@@ -1,0 +1,795 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul 16 12:23:41 2024
+# Process ID: 24356
+# Current directory: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1
+# Command line: vivado.exe -log zynq_bd_MONITOR_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_MONITOR_0.tcl
+# Log file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/zynq_bd_MONITOR_0.vds
+# Journal file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1\vivado.jou
+# Running On: Thorntanker, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+source zynq_bd_MONITOR_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 466.234 ; gain = 185.559
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_MONITOR_0
+Command: synth_design -top zynq_bd_MONITOR_0 -part xczu7ev-fbvb900-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-fbvb900-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23644
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 2007.684 ; gain = 385.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.vhd:101]
+WARNING: [Synth 8-3819] Generic 'GLOBAL_DATE' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_TIME' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'GLOBAL_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'TOP_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'TOP_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'HOG_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'HOG_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'CON_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'CON_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XML_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XML_SHA' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XIL_DEFAULTLIB_VER' not present in instantiated entity will be ignored
+WARNING: [Synth 8-3819] Generic 'XIL_DEFAULTLIB_SHA' not present in instantiated entity will be ignored
+	Parameter C_INSTANCE bound to: zynq_bd_MONITOR_0_axi_xadc - type: string 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_INCLUDE_INTR bound to: 1 - type: integer 
+	Parameter C_SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-3491] module 'zynq_bd_MONITOR_0_axi_xadc' declared at 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_axi_xadc.vhd:142' bound to instance 'U0' of component 'zynq_bd_MONITOR_0_axi_xadc' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_axi_xadc' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_axi_xadc.vhd:237]
+	Parameter C_INSTANCE bound to: zynq_bd_MONITOR_0_axi_xadc - type: string 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_INCLUDE_INTR bound to: 1 - type: integer 
+	Parameter C_SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_axi_lite_ipif' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_axi_lite_ipif.vhd:241]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000011111111111 
+	Parameter C_USE_WSTRB bound to: 1 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 64 - type: integer 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 384'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000111111100000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 96'b000000000000000000000000000010000000000000000000000000000001000000000000000000000000000000000001 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_slave_attachment' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_slave_attachment.vhd:227]
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 384'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000111111100000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 96'b000000000000000000000000000010000000000000000000000000000001000000000000000000000000000000000001 
+	Parameter C_IPIF_ABUS_WIDTH bound to: 13 - type: integer 
+	Parameter C_IPIF_DBUS_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000011111111111 
+	Parameter C_USE_WSTRB bound to: 1 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 64 - type: integer 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_address_decoder' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_address_decoder.vhd:176]
+	Parameter C_BUS_AWIDTH bound to: 11 - type: integer 
+	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000011111111111 
+	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 384'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000111111100000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000001111111111111 
+	Parameter C_ARD_NUM_CE_ARRAY bound to: 96'b000000000000000000000000000010000000000000000000000000000001000000000000000000000000000000000001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 6 - type: integer 
+	Parameter C_AW bound to: 11 - type: integer 
+	Parameter C_BAR bound to: 11'b00000000000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized0' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized1' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized1' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized2' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b010 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized2' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized3' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b011 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized3' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized4' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b100 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized4' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized5' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b101 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized5' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized6' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b110 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized6' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized7' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 3 - type: integer 
+	Parameter C_AW bound to: 3 - type: integer 
+	Parameter C_BAR bound to: 3'b111 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized7' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized8' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 5 - type: integer 
+	Parameter C_AW bound to: 11 - type: integer 
+	Parameter C_BAR bound to: 11'b00001000000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized8' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized9' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized9' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized10' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized10' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized11' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0010 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized11' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized12' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0011 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized12' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized13' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0100 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized13' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized14' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0101 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized14' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized15' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0110 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized15' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized16' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b0111 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized16' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized17' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized17' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized18' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1001 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized18' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized19' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1010 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized19' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized20' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1011 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized20' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized21' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1100 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized21' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized22' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1101 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized22' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized23' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1110 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized23' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized24' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 4 - type: integer 
+	Parameter C_AW bound to: 4 - type: integer 
+	Parameter C_BAR bound to: 4'b1111 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized24' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized25' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+	Parameter C_AB bound to: 1 - type: integer 
+	Parameter C_AW bound to: 11 - type: integer 
+	Parameter C_BAR bound to: 11'b10000000000 
+	Parameter C_FAMILY bound to: nofamily - type: string 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_pselect_f__parameterized25' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_address_decoder' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_address_decoder.vhd:176]
+INFO: [Synth 8-226] default block is never used [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_slave_attachment.vhd:424]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_slave_attachment' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_slave_attachment.vhd:227]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_axi_lite_ipif' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/zynq_bd_MONITOR_0_axi_lite_ipif.vhd:241]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+	Parameter CE_NUMBERS bound to: 9 - type: integer 
+	Parameter IP_INTR_NUM bound to: 18 - type: integer 
+	Parameter C_SIM_MONITOR_FILE bound to: design.txt - type: string 
+	Parameter MUX_ADDR_NO bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'zynq_bd_MONITOR_0_xadc_core_drp' declared at 'c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_xadc_core_drp.vhd:140' bound to instance 'AXI_SYSMON_CORE_I' of component 'zynq_bd_MONITOR_0_xadc_core_drp' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_axi_xadc.vhd:692]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_xadc_core_drp' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_xadc_core_drp.vhd:185]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_FAMILY bound to: kintexu - type: string 
+	Parameter CE_NUMBERS bound to: 9 - type: integer 
+	Parameter IP_INTR_NUM bound to: 18 - type: integer 
+	Parameter C_SIM_MONITOR_FILE bound to: design.txt - type: string 
+	Parameter MUX_ADDR_NO bound to: 5 - type: integer 
+	Parameter COMMON_N_SOURCE bound to: 16'b1111111111111111 
+	Parameter INIT_40 bound to: 16'b0000000000000000 
+	Parameter INIT_41 bound to: 16'b0010000110010010 
+	Parameter INIT_42 bound to: 16'b0000101000000000 
+	Parameter INIT_43 bound to: 16'b0010000000001111 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b1110001000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0100111100000001 
+	Parameter INIT_49 bound to: 16'b0000000000000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011011110010100 
+	Parameter INIT_51 bound to: 16'b0100111010000001 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101110100011 
+	Parameter INIT_54 bound to: 16'b1010101100000010 
+	Parameter INIT_55 bound to: 16'b0100100101100011 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1011000000001010 
+	Parameter INIT_58 bound to: 16'b0100111010000001 
+	Parameter INIT_59 bound to: 16'b0100100101100011 
+	Parameter INIT_5A bound to: 16'b0100100101100011 
+	Parameter INIT_5B bound to: 16'b1001101001110100 
+	Parameter INIT_5C bound to: 16'b0100100101100011 
+	Parameter INIT_5D bound to: 16'b0100010100011110 
+	Parameter INIT_5E bound to: 16'b0100010100011110 
+	Parameter INIT_5F bound to: 16'b1001000111101011 
+	Parameter INIT_60 bound to: 16'b0100110100111001 
+	Parameter INIT_61 bound to: 16'b0100110110100111 
+	Parameter INIT_62 bound to: 16'b1001101001110100 
+	Parameter INIT_63 bound to: 16'b1001101001110100 
+	Parameter INIT_68 bound to: 16'b0100110001011110 
+	Parameter INIT_69 bound to: 16'b0100101111110010 
+	Parameter INIT_6A bound to: 16'b1001100010111111 
+	Parameter INIT_6B bound to: 16'b1001100010111111 
+	Parameter INIT_7A bound to: 16'b0000000000000000 
+	Parameter INIT_7B bound to: 16'b0000000000000000 
+	Parameter INIT_7C bound to: 16'b0000000000000000 
+	Parameter INIT_7D bound to: 16'b0000000000000000 
+	Parameter SIM_DEVICE bound to: ZYNQ_ULTRASCALE - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.dat - type: string 
+INFO: [Synth 8-113] binding component instance 'inst_sysmon' to cell 'SYSMONE4' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_xadc_core_drp.vhd:1109]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_xadc_core_drp' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_xadc_core_drp.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_soft_reset' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:142]
+	Parameter C_SIPIF_DWIDTH bound to: 32 - type: integer 
+	Parameter C_RESET_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:273]
+INFO: [Synth 8-113] binding component instance 'FF_WRACK' to cell 'FDRSE' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:296]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_soft_reset' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/proc_common_v3_00_a/hdl/src/vhdl/zynq_bd_MONITOR_0_soft_reset.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'zynq_bd_MONITOR_0_interrupt_control' [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/interrupt_control_v2_01_a/hdl/src/vhdl/zynq_bd_MONITOR_0_interrupt_control.vhd:240]
+	Parameter C_NUM_CE bound to: 16 - type: integer 
+	Parameter C_NUM_IPIF_IRPT_SRC bound to: 1 - type: integer 
+	Parameter C_IP_INTR_MODE_ARRAY bound to: 576'b000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101 
+	Parameter C_INCLUDE_DEV_PENCODER bound to: 0 - type: bool 
+	Parameter C_INCLUDE_DEV_ISC bound to: 0 - type: bool 
+	Parameter C_IPIF_DWIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_interrupt_control' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/interrupt_control_v2_01_a/hdl/src/vhdl/zynq_bd_MONITOR_0_interrupt_control.vhd:240]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0_axi_xadc' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_axi_xadc.vhd:237]
+INFO: [Synth 8-256] done synthesizing module 'zynq_bd_MONITOR_0' (0#1) [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.vhd:101]
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_DATE
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_TIME
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic GLOBAL_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic TOP_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic HOG_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic CON_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XML_SHA
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_VER
+WARNING: [Synth 8-3301] Unused top level parameter/generic XIL_DEFAULTLIB_SHA
+WARNING: [Synth 8-6014] Unused sequential element convst_reg_input_reg was removed.  [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_xadc_core_drp.vhd:645]
+WARNING: [Synth 8-7129] Port Bus2IP_Data[1] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[2] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[3] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[4] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[5] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[6] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[7] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[8] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[9] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[10] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[11] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[12] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[13] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[1] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[2] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[3] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[0] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[1] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[2] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[3] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[4] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[5] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[6] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[9] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[11] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[12] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[13] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[14] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_RdCE[15] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[0] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[1] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[2] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[3] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[4] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[5] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[6] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[9] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[11] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[12] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[13] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[14] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Interrupt_WrCE[15] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IPIF_Reg_Interrupts[0] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IPIF_Reg_Interrupts[1] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IPIF_Lvl_Interrupts[0] in module zynq_bd_MONITOR_0_interrupt_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[0] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[1] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[2] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[3] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[4] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[5] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[6] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[7] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[8] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[9] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[10] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[11] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[12] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[13] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[14] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[15] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[16] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[17] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[18] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[19] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[20] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[21] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[22] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[23] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[24] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[25] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[26] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[27] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[0] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[1] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_BE[2] in module zynq_bd_MONITOR_0_soft_reset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_RdCE[0] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_RdCE[5] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_RdCE[6] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_RdCE[7] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_WrCE[0] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_WrCE[5] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_WrCE[6] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_WrCE[7] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[0] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[1] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[2] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[11] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[12] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[0] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[1] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[2] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[3] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[4] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[5] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[6] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[7] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[8] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[9] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Data[10] in module zynq_bd_MONITOR_0_xadc_core_drp is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2165.789 ; gain = 543.406
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2165.789 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_ooc.xdc] for cell 'U0'
+create_clock: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2230.273 ; gain = 5.457
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0_board.xdc] for cell 'U0'
+Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_MONITOR_0/zynq_bd_MONITOR_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zynq_bd_MONITOR_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zynq_bd_MONITOR_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2230.273 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 17 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2230.648 ; gain = 0.375
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-fbvb900-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 2230.648 ; gain = 608.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'zynq_bd_MONITOR_0_slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'zynq_bd_MONITOR_0_slave_attachment'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:35 . Memory (MB): peak = 2230.648 ; gain = 608.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    7 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 128   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   18 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 55    
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 2230.648 ; gain = 608.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:01:02 . Memory (MB): peak = 2675.035 ; gain = 1052.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:01:27 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:01:32 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_master_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave0_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave0_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_slave0_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_slave1_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_slave1_reg_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_slave1_reg_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/daddr_C_master_reg2_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/di_C_master_reg2_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin AXI_SYSMON_CORE_I/dwe_C_master_reg2_inferred:in0 to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |   152|
+|2     |LUT2     |    36|
+|3     |LUT3     |    26|
+|4     |LUT4     |    23|
+|5     |LUT5     |    69|
+|6     |LUT6     |    46|
+|7     |SYSMONE4 |     1|
+|8     |FDRE     |   227|
+|9     |FDSE     |    37|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 164 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:01:52 . Memory (MB): peak = 2754.277 ; gain = 1067.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:02:02 . Memory (MB): peak = 2754.277 ; gain = 1131.895
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2754.277 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ed7f9fb9
+INFO: [Common 17-83] Releasing license: Synthesis
+116 Infos, 230 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:02:48 . Memory (MB): peak = 2756.637 ; gain = 2238.621
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/zynq_bd_MONITOR_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP zynq_bd_MONITOR_0, cache-ID = 9a5deb56b4dcc611
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2756.637 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_MONITOR_0_synth_1/zynq_bd_MONITOR_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zynq_bd_MONITOR_0_utilization_synth.rpt -pb zynq_bd_MONITOR_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 12:26:47 2024...

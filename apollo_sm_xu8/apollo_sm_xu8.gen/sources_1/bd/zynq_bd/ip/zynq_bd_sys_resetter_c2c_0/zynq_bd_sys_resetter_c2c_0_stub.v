@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
 // Date        : Mon Jul 15 16:46:22 2024
 // Host        : Thorntanker running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.gen/sources_1/bd/zynq_bd/ip/zynq_bd_sys_resetter_c2c_0/zynq_bd_sys_resetter_c2c_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top zynq_bd_sys_resetter_c2c_0 -prefix
+//               zynq_bd_sys_resetter_c2c_0_ zynq_bd_sys_resetter_c2c_0_stub.v
 // Design      : zynq_bd_sys_resetter_c2c_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu7ev-fbvb900-2-i

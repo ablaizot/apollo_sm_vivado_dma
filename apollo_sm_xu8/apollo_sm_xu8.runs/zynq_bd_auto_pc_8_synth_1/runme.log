@@ -1,0 +1,29 @@
+
+*** Running vivado
+    with args -log zynq_bd_auto_pc_8.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_auto_pc_8.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source zynq_bd_auto_pc_8.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 466.055 ; gain = 184.781
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Dev/apollo_sm_vivado/ip_repo/axis_jtag'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_bd_auto_pc_8
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 7720c040d178b4bb to dir: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/7/7/7720c040d178b4bb/zynq_bd_auto_pc_7.dcp to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/zynq_bd_auto_pc_8.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/7/7/7720c040d178b4bb/zynq_bd_auto_pc_7_sim_netlist.v to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/zynq_bd_auto_pc_8_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/7/7/7720c040d178b4bb/zynq_bd_auto_pc_7_sim_netlist.vhdl to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/zynq_bd_auto_pc_8_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/7/7/7720c040d178b4bb/zynq_bd_auto_pc_7_stub.v to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/zynq_bd_auto_pc_8_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.cache/ip/2023.2/7/7/7720c040d178b4bb/zynq_bd_auto_pc_7_stub.vhdl to C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_pc_8_synth_1/zynq_bd_auto_pc_8_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP zynq_bd_auto_pc_8, cache-ID = 7720c040d178b4bb.
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 12:35:47 2024...

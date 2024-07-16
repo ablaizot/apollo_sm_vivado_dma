@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul 16 12:31:10 2024
+# Process ID: 16744
+# Current directory: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_2_synth_1
+# Command line: vivado.exe -log zynq_bd_auto_us_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_bd_auto_us_2.tcl
+# Log file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_2_synth_1/zynq_bd_auto_us_2.vds
+# Journal file: C:/Dev/apollo_sm_vivado/apollo_sm_xu8/apollo_sm_xu8.runs/zynq_bd_auto_us_2_synth_1\vivado.jou
+# Running On: Thorntanker, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+source zynq_bd_auto_us_2.tcl -notrace
